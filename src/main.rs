@@ -10,7 +10,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     print!("Downloading song urls... ");
     stdout().flush()?;
     let song_wiki_urls = downloader.get_song_wiki_urls().await?;
-    println!(" done!({} ms)", begin.elapsed().as_millis());
+    println!("done!({} ms)", begin.elapsed().as_millis());
 
 
     let begin = Instant::now();
@@ -22,7 +22,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .into_iter()
         .filter_map(|e| e.ok())
         .collect();
-    println!(" done!({} ms)", begin.elapsed().as_millis());
+    println!("done!({} ms)", begin.elapsed().as_millis());
 
     let begin = Instant::now();
     print!("Writing json... ");
@@ -30,7 +30,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut file = File::create("song_infos.json")?;
     let json = serde_json::to_string_pretty(&song_infos)?;
     file.write_all(json.as_bytes())?;
-    println!(" done!({} ms)", begin.elapsed().as_millis());
+    println!("done!({} ms)", begin.elapsed().as_millis());
 
 
     println!("Downloaded {} song infos!", song_infos.len());
