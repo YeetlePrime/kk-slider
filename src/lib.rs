@@ -1,8 +1,3 @@
-use std::{
-    io::{self, Write},
-    time::Instant,
-};
-
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
 
@@ -32,7 +27,7 @@ impl Default for Downloader {
 impl Downloader {
     pub async fn get_all_song_infos(
         &self,
-        song_wiki_urls: &Vec<String>,
+        song_wiki_urls: &[String],
     ) -> Result<Vec<Result<SongInfo, Box<dyn std::error::Error>>>, Box<dyn std::error::Error>> {
         let futures = song_wiki_urls
             .iter()
