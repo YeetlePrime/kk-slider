@@ -9,7 +9,10 @@ use std::{
 use futures::{stream, StreamExt};
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
-use tokio::{fs::{self, File}, io::AsyncWriteExt};
+use tokio::{
+    fs::{self, File},
+    io::AsyncWriteExt,
+};
 
 const CONCURRENT_DOWNLOADS: usize = 100;
 pub struct Downloader {
@@ -56,7 +59,6 @@ impl Downloader {
             .collect();
         println!("done! ({} ms)", begin.elapsed().as_millis());
 
-
         print!("Downloading songs... ");
         stdout().flush()?;
         let begin = Instant::now();
@@ -73,7 +75,9 @@ impl Downloader {
     ) -> Result<(), Box<dyn std::error::Error>> {
         stream::iter(song_infos)
             .map(|song_info| async { self.download_song(song_info, directory).await })
-            .buffer_unordered(CONCURRENT_DOWNLOADS).collect::<Vec<Result<(), Box<dyn std::error::Error>>>>().await;
+            .buffer_unordered(CONCURRENT_DOWNLOADS)
+            .collect::<Vec<Result<(), Box<dyn std::error::Error>>>>()
+            .await;
 
         Ok(())
     }
@@ -87,7 +91,7 @@ impl Downloader {
             return Ok(());
         }
 
-        let directory = format!("{}/{}", directory, song_info.filelized_title()); 
+        let directory = format!("{}/{}", directory, song_info.filelized_title());
         fs::create_dir_all(&directory).await?;
 
         if let Some(live_url) = &song_info.live_song_file_url {
@@ -114,7 +118,6 @@ impl Downloader {
 
         Ok(())
     }
-
 }
 
 impl Downloader {

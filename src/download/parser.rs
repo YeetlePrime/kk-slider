@@ -96,7 +96,10 @@ impl SongInfo {
             song_file_urls,
         })
     }
+}
 
+// ----- PRIVATE HELPERS ------------------------------------------------------------
+impl SongInfo {
     fn parse_meta_property<'a>(html: &'a Html, property: &'a str) -> Option<&'a str> {
         let selector_string = format!("head > meta[property=\"og:{property}\"][content]");
         let selector = Selector::parse(&selector_string).expect("Selector is valid");
@@ -108,7 +111,7 @@ impl SongInfo {
         let mut song_urls = HashMap::new();
 
         for song_type in SongType::iterator() {
-            if let Some(url) = SongInfo::parse_song_file_url_containing(html, song_type) {
+            if let Some(url) = SongInfo::parse_song_file_url(html, song_type) {
                 song_urls.insert(song_type.to_owned(), url.to_string());
             }
         }
@@ -116,7 +119,9 @@ impl SongInfo {
         song_urls
     }
 
-    fn parse_song_file_url_containing<'a>(html: &'a Html, song_type: &SongType) -> Option<&'a str> {
+    fn parse_song_file_url<'a>(html: &'a Html, song_type: &SongType) -> Option<&'a str> {
+        // Try finding the song in the infobox table
+        // This table usually contains the files for the Live and Aircheck Version
         let selector = Selector::parse(&format!(
             "table.infobox > tbody > tr > td > audio[src$=\"{}\"]",
             song_type.url_ending()
@@ -132,6 +137,7 @@ impl SongInfo {
             return Some(infobox_song_url);
         }
 
+        // Find the other files in the Music section
         let selector = Selector::parse(&format!(
             "div.tabletop.color-music table > tbody > tr > td > audio[src$=\"{}\"]",
             song_type.url_ending()
