@@ -1,3 +1,6 @@
+pub mod download;
+pub mod errors;
+
 use std::{
     io::{stdout, Write},
     time::Instant,
