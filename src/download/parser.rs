@@ -100,6 +100,13 @@ impl SongInfo {
     }
 }
 
+// ----- PUBLIC METHODS ------------------------------------------------------------
+impl SongInfo {
+    pub fn filelized_title(&self) -> String {
+        self.title.to_lowercase().replace(' ', "_").replace('.', "")
+    }
+}
+
 // ----- PRIVATE HELPERS ------------------------------------------------------------
 impl SongInfo {
     fn parse_meta_property<'a>(html: &'a Html, property: &'a str) -> Option<&'a str> {

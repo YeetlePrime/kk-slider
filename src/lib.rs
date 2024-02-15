@@ -6,9 +6,9 @@ use std::{
     time::Instant,
 };
 
+use download::parser::{SongInfo, SongType};
 use futures::{stream, StreamExt};
 use reqwest::Client;
-use serde::{Deserialize, Serialize};
 use tokio::{
     fs::{self, File},
     io::AsyncWriteExt,
@@ -87,14 +87,14 @@ impl Downloader {
         song_info: &SongInfo,
         directory: &str,
     ) -> Result<(), Box<dyn std::error::Error>> {
-        if song_info.live_song_file_url.is_none() && song_info.aircheck_song_file_url.is_none() {
+        if song_info.song_file_urls.is_empty() {
             return Ok(());
         }
 
         let directory = format!("{}/{}", directory, song_info.filelized_title());
         fs::create_dir_all(&directory).await?;
 
-        if let Some(live_url) = &song_info.live_song_file_url {
+        if let Some(live_url) = song_info.song_file_urls.get(&SongType::Live) {
             let mut file = File::create(format!("{}/live.flac", directory)).await?;
             let mut stream = self.client.get(live_url).send().await?.bytes_stream();
 
@@ -105,7 +105,7 @@ impl Downloader {
             file.flush().await?;
         }
 
-        if let Some(aircheck_url) = &song_info.aircheck_song_file_url {
+        if let Some(aircheck_url) = song_info.song_file_urls.get(&SongType::Aircheck) {
             let mut file = File::create(format!("{}/aircheck.flac", &directory)).await?;
             let mut stream = self.client.get(aircheck_url).send().await?.bytes_stream();
 
@@ -161,75 +161,7 @@ impl Downloader {
     ) -> Result<SongInfo, Box<dyn std::error::Error>> {
         let document = self.client.get(song_wiki_url).send().await?.text().await?;
 
-        let html = scraper::Html::parse_document(&document);
-
-        let number_selector = scraper::Selector::parse("table.infobox > tbody tbody big > i > b")
-            .expect("Hard-coded selector is valid");
-        let number = html
-            .select(&number_selector)
-            .map(|e| e.inner_html())
-            .next()
-            .ok_or("Number must exist in document")?;
-
-        let title_selector =
-            scraper::Selector::parse("table.infobox > tbody tbody > tr > th > span")
-                .expect("Hard-coded selector is valid");
-        let title = html
-            .select(&title_selector)
-            .map(|e| e.inner_html())
-            .next()
-            .ok_or("Title must exist in document")?;
-
-        let wiki_url = song_wiki_url.to_string();
-
-        let image_url_selector =
-            scraper::Selector::parse("table.infobox > tbody > tr > td > a > img[src]")
-                .expect("Hard-coded selector is valid");
-        let image_url = html
-            .select(&image_url_selector)
-            .map(|e| e.attr("src").unwrap().to_string())
-            .next();
-
-        let song_file_urls_selector =
-            scraper::Selector::parse("table.infobox > tbody > tr > td > audio[src]")
-                .expect("Hard-coded selector is valid");
-        let song_file_urls: Vec<String> = html
-            .select(&song_file_urls_selector)
-            .map(|e| e.attr("src").unwrap().to_string())
-            .collect();
-
-        let live_song_file_url = song_file_urls
-            .iter()
-            .find(|s| s.contains("Live"))
-            .map(|s| s.to_owned());
-        let aircheck_song_file_url = song_file_urls
-            .iter()
-            .find(|s| s.contains("Aircheck"))
-            .map(|s| s.to_owned());
-
-        Ok(SongInfo {
-            number,
-            title,
-            wiki_url,
-            image_url,
-            live_song_file_url,
-            aircheck_song_file_url,
-        })
-    }
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct SongInfo {
-    pub number: String,
-    pub title: String,
-    pub wiki_url: String,
-    pub image_url: Option<String>,
-    pub live_song_file_url: Option<String>,
-    pub aircheck_song_file_url: Option<String>,
-}
-
-impl SongInfo {
-    pub fn filelized_title(&self) -> String {
-        self.title.to_lowercase().replace(' ', "_").replace('.', "")
+        let res = SongInfo::parse_document(&document)?;
+        Ok(res)
     }
 }
