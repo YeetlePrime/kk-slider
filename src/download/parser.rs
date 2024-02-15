@@ -3,7 +3,7 @@ use std::{collections::HashMap, slice::Iter};
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 
-use crate::errors::ParseError;
+use crate::errors::Error;
 
 #[derive(PartialEq, Eq, Hash, Clone, Copy, Serialize, Deserialize, Debug)]
 pub enum SongType {
@@ -67,26 +67,26 @@ pub struct SongInfo {
 
 // ----- CONSTRUCTORS -------------------------------------------------------------------------------------
 impl SongInfo {
-    pub fn parse_document(document: &str) -> Result<SongInfo, ParseError> {
+    pub fn parse_document(document: &str) -> Result<SongInfo, Error> {
         let html = Html::parse_document(document);
 
         let title = SongInfo::parse_meta_property(&html, "title")
-            .ok_or(ParseError::MissingElement("title".to_string()))?;
+            .ok_or(Error::MissingElement("title".to_string()))?;
         let wiki_url = SongInfo::parse_meta_property(&html, "url")
-            .ok_or(ParseError::MissingElement("url".to_string()))?;
+            .ok_or(Error::MissingElement("url".to_string()))?;
         let image_url = SongInfo::parse_meta_property(&html, "image")
-            .ok_or(ParseError::MissingElement("image".to_string()))?;
+            .ok_or(Error::MissingElement("image".to_string()))?;
 
         let number_selector = Selector::parse("table.infobox > tbody table big > i > b")
             .expect("Hard-coded selector is valid.");
         let number_string = html
             .select(&number_selector)
             .next()
-            .ok_or(ParseError::MissingElement("number".to_string()))?
+            .ok_or(Error::MissingElement("number".to_string()))?
             .inner_html();
         let number = number_string[1..]
             .parse::<i32>()
-            .map_err(|_| ParseError::CouldNotParseNumber(number_string))?;
+            .map_err(|_| Error::CouldNotParseNumber(number_string))?;
 
         let song_file_urls = SongInfo::parse_all_song_file_urls(&html);
 
