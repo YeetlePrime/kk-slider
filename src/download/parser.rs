@@ -56,7 +56,7 @@ impl SongType {
     }
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct SongInfo {
     pub title: String,
     pub number: i32,

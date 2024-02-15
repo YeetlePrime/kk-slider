@@ -1,882 +1,1631 @@
 [
   {
-    "number": "#1",
     "title": "K.K. Chorale",
+    "number": 1,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Chorale",
-    "image_url": "https://dodo.ac/np/images/thumb/6/6c/K.K._Chorale_NH_Texture.png/256px-K.K._Chorale_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/1/10/NH_K.K._Chorale_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/6/65/NH_K.K._Chorale_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/6c/K.K._Chorale_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/8/88/NH_K.K._Chorale_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/15/NH_K.K._Chorale_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/e/e7/NL_K.K._Chorale_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/1/13/HHP_K.K._Chorale_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/6/65/NH_K.K._Chorale_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/1/10/NH_K.K._Chorale_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/c/c5/NH_K.K._Chorale_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#2",
     "title": "K.K. March",
+    "number": 2,
     "wiki_url": "https://nookipedia.com/wiki/K.K._March",
-    "image_url": "https://dodo.ac/np/images/thumb/e/ef/K.K._March_NH_Texture.png/256px-K.K._March_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/6d/NH_K.K._March_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/a/a0/NH_K.K._March_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/e/ef/K.K._March_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/a/a0/NH_K.K._March_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/3/3d/HHP_K.K._March_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/6/6d/NH_K.K._March_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/6/69/NH_K.K._March_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/92/NL_K.K._March_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b8/NH_K.K._March_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/9/9e/NH_K.K._March_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#3",
     "title": "K.K. Waltz",
+    "number": 3,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Waltz",
-    "image_url": "https://dodo.ac/np/images/thumb/0/0e/K.K._Waltz_NH_Texture.png/256px-K.K._Waltz_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/08/NH_K.K._Waltz_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c2/NH_K.K._Waltz_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/0/0e/K.K._Waltz_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/4/44/NH_K.K._Waltz_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/2f/NH_K.K._Waltz_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/f/ff/NL_K.K._Waltz_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/e/e1/HHP_K.K._Waltz_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/0/08/NH_K.K._Waltz_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c2/NH_K.K._Waltz_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/6/68/NH_K.K._Waltz_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#4",
     "title": "K.K. Swing",
+    "number": 4,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Swing",
-    "image_url": "https://dodo.ac/np/images/thumb/b/b3/K.K._Swing_NH_Texture.png/256px-K.K._Swing_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/6e/NH_K.K._Swing_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/b9/NH_K.K._Swing_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/b/b3/K.K._Swing_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/a/ad/NH_K.K._Swing_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/3/37/HHP_K.K._Swing_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/e/ee/NL_K.K._Swing_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/6/6e/NH_K.K._Swing_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/3/3b/NH_K.K._Swing_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/b9/NH_K.K._Swing_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/6/67/NH_K.K._Swing_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#5",
     "title": "K.K. Jazz",
+    "number": 5,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Jazz",
-    "image_url": "https://dodo.ac/np/images/thumb/0/00/K.K._Jazz_NH_Texture.png/256px-K.K._Jazz_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/01/NH_K.K._Jazz_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/7c/NH_K.K._Jazz_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/0/00/K.K._Jazz_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/f/fb/NH_K.K._Jazz_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/4/4f/HHP_K.K._Jazz_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/35/NH_K.K._Jazz_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/90/NL_K.K._Jazz_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/7c/NH_K.K._Jazz_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/a/a7/NH_K.K._Jazz_%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/0/01/NH_K.K._Jazz_%28Live%29.flac"
+    }
   },
   {
-    "number": "#6",
     "title": "K.K. Fusion",
+    "number": 6,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Fusion",
-    "image_url": "https://dodo.ac/np/images/thumb/6/6f/K.K._Fusion_NH_Texture.png/256px-K.K._Fusion_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/0e/NH_K.K._Fusion_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/1/1f/NH_K.K._Fusion_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/6f/K.K._Fusion_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/1/1f/NH_K.K._Fusion_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/02/NH_K.K._Fusion_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/0/0e/NH_K.K._Fusion_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/67/HHP_K.K._Fusion_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/3d/NH_K.K._Fusion_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/1f/NH_K.K._Fusion_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/0e/NL_K.K._Fusion_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#7",
     "title": "K.K. Étude",
+    "number": 7,
     "wiki_url": "https://nookipedia.com/wiki/K.K._%C3%89tude",
-    "image_url": "https://dodo.ac/np/images/thumb/0/02/K.K._%C3%89tude_NH_Texture.png/256px-K.K._%C3%89tude_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/4/41/NH_K.K._%C3%89tude_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/59/NH_K.K._%C3%89tude_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/0/02/K.K._%C3%89tude_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/5/59/NH_K.K._%C3%89tude_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/4/41/NH_K.K._%C3%89tude_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/3c/NH_K.K._%C3%89tude_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/8/85/NH_K.K._%C3%89tude_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/07/NL_K.K._%C3%89tude_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/df/HHP_K.K._%C3%89tude_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/b/ba/NH_K.K._%C3%89tude_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#8",
     "title": "K.K. Lullaby",
+    "number": 8,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Lullaby",
-    "image_url": "https://dodo.ac/np/images/thumb/e/ee/K.K._Lullaby_NH_Texture.png/256px-K.K._Lullaby_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/03/NH_K.K._Lullaby_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f9/NH_K.K._Lullaby_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/e/ee/K.K._Lullaby_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/3/3c/NH_K.K._Lullaby_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/5/5b/NH_K.K._Lullaby_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/6/64/NL_K.K._Lullaby_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/a4/HHP_K.K._Lullaby_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/0/03/NH_K.K._Lullaby_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/f9/NH_K.K._Lullaby_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/8/8d/NH_K.K._Lullaby_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#9",
     "title": "K.K. Aria",
+    "number": 9,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Aria",
-    "image_url": "https://dodo.ac/np/images/thumb/3/36/K.K._Aria_NH_Texture.png/256px-K.K._Aria_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/7c/NH_K.K._Aria_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/0d/NH_K.K._Aria_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/3/36/K.K._Aria_NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/9/90/HHP_K.K._Aria_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/7/7c/NH_K.K._Aria_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/2/26/NH_K.K._Aria_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/0/0d/NH_K.K._Aria_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/e/ef/NL_K.K._Aria_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a5/NH_K.K._Aria_%28Aircheck%2C_Phono%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/5/52/NH_K.K._Aria_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#10",
     "title": "K.K. Samba",
+    "number": 10,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Samba",
-    "image_url": "https://dodo.ac/np/images/thumb/6/63/K.K._Samba_NH_Texture.png/256px-K.K._Samba_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/01/NH_K.K._Samba_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/81/NH_K.K._Samba_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/63/K.K._Samba_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/0/01/NH_K.K._Samba_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/b/b3/NH_K.K._Samba_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/7/75/NH_K.K._Samba_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/1d/NH_K.K._Samba_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/bd/HHP_K.K._Samba_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/8/81/NH_K.K._Samba_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c8/NL_K.K._Samba_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#11",
     "title": "K.K. Bossa",
+    "number": 11,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Bossa",
-    "image_url": "https://dodo.ac/np/images/thumb/c/cc/K.K._Bossa_NH_Texture.png/256px-K.K._Bossa_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/b/b1/NH_K.K._Bossa_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/e/e9/NH_K.K._Bossa_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/cc/K.K._Bossa_NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/8/85/HHP_K.K._Bossa_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/9/99/NH_K.K._Bossa_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/4/4a/NH_K.K._Bossa_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/dd/NH_K.K._Bossa_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/b/b1/NH_K.K._Bossa_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/8/87/NL_K.K._Bossa_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/e/e9/NH_K.K._Bossa_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#12",
     "title": "K.K. Calypso",
+    "number": 12,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Calypso",
-    "image_url": "https://dodo.ac/np/images/thumb/8/87/K.K._Calypso_NH_Texture.png/256px-K.K._Calypso_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/d7/NH_K.K._Calypso_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f3/NH_K.K._Calypso_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/87/K.K._Calypso_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/f/ff/NH_K.K._Calypso_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/61/NH_K.K._Calypso_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/d/d7/NH_K.K._Calypso_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/f3/NH_K.K._Calypso_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/8/87/NH_K.K._Calypso_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/16/NL_K.K._Calypso_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d6/HHP_K.K._Calypso_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#13",
     "title": "K.K. Salsa",
+    "number": 13,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Salsa",
-    "image_url": "https://dodo.ac/np/images/thumb/8/84/K.K._Salsa_NH_Texture.png/256px-K.K._Salsa_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/4/4d/NH_K.K._Salsa_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/56/NH_K.K._Salsa_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/84/K.K._Salsa_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/f/f7/NL_K.K._Salsa_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/27/NH_K.K._Salsa_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/5/5f/HHP_K.K._Salsa_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/56/NH_K.K._Salsa_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/10/NH_K.K._Salsa_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/9/94/NH_K.K._Salsa_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/4/4d/NH_K.K._Salsa_%28Live%29.flac"
+    }
   },
   {
-    "number": "#14",
     "title": "K.K. Mambo",
+    "number": 14,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Mambo",
-    "image_url": "https://dodo.ac/np/images/thumb/a/ab/K.K._Mambo_NH_Texture.png/256px-K.K._Mambo_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/f7/NH_K.K._Mambo_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/2/2b/NH_K.K._Mambo_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/ab/K.K._Mambo_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/2/2b/NH_K.K._Mambo_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/f/f8/NH_K.K._Mambo_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/7/76/NL_K.K._Mambo_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/aa/HHP_K.K._Mambo_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/f/f7/NH_K.K._Mambo_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/7/77/NH_K.K._Mambo_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/4/43/NH_K.K._Mambo_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#15",
     "title": "K.K. Reggae",
+    "number": 15,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Reggae",
-    "image_url": "https://dodo.ac/np/images/thumb/5/50/K.K._Reggae_NH_Texture.png/256px-K.K._Reggae_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/3/37/NH_K.K._Reggae_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/e/e1/NH_K.K._Reggae_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/50/K.K._Reggae_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/e/e1/NH_K.K._Reggae_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/3/37/NH_K.K._Reggae_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/2e/HHP_K.K._Reggae_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/8/87/NH_K.K._Reggae_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/c/cc/NH_K.K._Reggae_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a8/NH_K.K._Reggae_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/a/a4/NL_K.K._Reggae_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#16",
     "title": "K.K. Ska",
+    "number": 16,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Ska",
-    "image_url": "https://dodo.ac/np/images/thumb/6/6d/K.K._Ska_NH_Texture.png/256px-K.K._Ska_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/f0/NH_K.K._Ska_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c7/NH_K.K._Ska_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/6d/K.K._Ska_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/c/cb/NH_K.K._Ska_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/61/NH_K.K._Ska_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/8/8d/HHP_K.K._Ska_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/f/f0/NH_K.K._Ska_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/1a/NL_K.K._Ska_%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/b/b9/NH_K.K._Ska_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c7/NH_K.K._Ska_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#17",
     "title": "K.K. Tango",
+    "number": 17,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Tango",
-    "image_url": "https://dodo.ac/np/images/thumb/6/67/K.K._Tango_NH_Texture.png/256px-K.K._Tango_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/b/be/NH_K.K._Tango_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/9/97/NH_K.K._Tango_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/67/K.K._Tango_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/9/97/NH_K.K._Tango_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/b/be/NH_K.K._Tango_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/34/NH_K.K._Tango_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/62/NH_K.K._Tango_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/6/67/NH_K.K._Tango_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/f/fe/HHP_K.K._Tango_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/04/NL_K.K._Tango_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#18",
     "title": "K.K. Faire",
+    "number": 18,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Faire",
-    "image_url": "https://dodo.ac/np/images/thumb/b/b7/K.K._Faire_NH_Texture.png/256px-K.K._Faire_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/62/NH_K.K._Faire_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/83/NH_K.K._Faire_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/b/b7/K.K._Faire_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/8/83/NH_K.K._Faire_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/d6/NH_K.K._Faire_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/3f/NL_K.K._Faire_%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/7/7c/NH_K.K._Faire_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/66/HHP_K.K._Faire_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/1e/NH_K.K._Faire_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/6/62/NH_K.K._Faire_%28Live%29.flac"
+    }
   },
   {
-    "number": "#19",
     "title": "Aloha K.K.",
+    "number": 19,
     "wiki_url": "https://nookipedia.com/wiki/Aloha_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/5/5b/Aloha_K.K._NH_Texture.png/256px-Aloha_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/e/e1/NH_Aloha_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/9/96/NH_Aloha_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/5b/Aloha_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/d/d8/HHP_Aloha_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/61/NH_Aloha_K.K._%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/c/ca/NH_Aloha_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/b/b8/NL_Aloha_K.K._%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/e/e1/NH_Aloha_K.K._%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/9/96/NH_Aloha_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/8/8e/NH_Aloha_K.K._%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#20",
     "title": "Lucky K.K.",
+    "number": 20,
     "wiki_url": "https://nookipedia.com/wiki/Lucky_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/9/9c/Lucky_K.K._NH_Texture.png/256px-Lucky_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/a2/NH_Lucky_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/79/NH_Lucky_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/9c/Lucky_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/9/9d/NH_Lucky_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/19/NH_Lucky_K.K._%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/e/eb/NL_Lucky_K.K._%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/79/NH_Lucky_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/a/a2/NH_Lucky_K.K._%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/3d/NH_Lucky_K.K._%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/24/HHP_Lucky_K.K._%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#21",
     "title": "K.K. Condor",
+    "number": 21,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Condor",
-    "image_url": "https://dodo.ac/np/images/thumb/c/c2/K.K._Condor_NH_Texture.png/256px-K.K._Condor_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/c/ca/NH_K.K._Condor_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f5/NH_K.K._Condor_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/c2/K.K._Condor_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/f/f5/NH_K.K._Condor_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/e/eb/NH_K.K._Condor_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/68/NH_K.K._Condor_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/fa/NH_K.K._Condor_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/3f/NL_K.K._Condor_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/dc/HHP_K.K._Condor_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/c/ca/NH_K.K._Condor_%28Live%29.flac"
+    }
   },
   {
-    "number": "#22",
     "title": "K.K. Steppe",
+    "number": 22,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Steppe",
-    "image_url": "https://dodo.ac/np/images/thumb/1/1e/K.K._Steppe_NH_Texture.png/256px-K.K._Steppe_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/8/89/NH_K.K._Steppe_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c2/NH_K.K._Steppe_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/1/1e/K.K._Steppe_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/1/1f/NH_K.K._Steppe_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c2/NH_K.K._Steppe_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b8/NH_K.K._Steppe_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/6/68/NL_K.K._Steppe_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/a1/HHP_K.K._Steppe_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/8/89/NH_K.K._Steppe_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/8/80/NH_K.K._Steppe_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#23",
     "title": "Imperial K.K.",
+    "number": 23,
     "wiki_url": "https://nookipedia.com/wiki/Imperial_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/9/9a/Imperial_K.K._NH_Texture.png/256px-Imperial_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/97/NH_Imperial_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/1/1a/NH_Imperial_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/9a/Imperial_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/e/ec/NH_Imperial_K.K._%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/1/1a/NH_Imperial_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/f/f8/NL_Imperial_K.K._%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/9/97/NH_Imperial_K.K._%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a6/NH_Imperial_K.K._%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d9/HHP_Imperial_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/f5/NH_Imperial_K.K._%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#24",
     "title": "K.K. Casbah",
+    "number": 24,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Casbah",
-    "image_url": "https://dodo.ac/np/images/thumb/4/43/K.K._Casbah_NH_Texture.png/256px-K.K._Casbah_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/da/NH_K.K._Casbah_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/7a/NH_K.K._Casbah_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/4/43/K.K._Casbah_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/0/05/NL_K.K._Casbah_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/7a/NH_K.K._Casbah_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/a/a3/NH_K.K._Casbah_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/b4/HHP_K.K._Casbah_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/d/da/NH_K.K._Casbah_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/6/65/NH_K.K._Casbah_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/b/bd/NH_K.K._Casbah_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#25",
     "title": "K.K. Safari",
+    "number": 25,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Safari",
-    "image_url": "https://dodo.ac/np/images/thumb/8/8e/K.K._Safari_NH_Texture.png/256px-K.K._Safari_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/65/NH_K.K._Safari_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/b1/NH_K.K._Safari_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/8e/K.K._Safari_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/d/d9/NH_K.K._Safari_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c3/NL_K.K._Safari_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/05/HHP_K.K._Safari_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/6/65/NH_K.K._Safari_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/b1/NH_K.K._Safari_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/0/02/NH_K.K._Safari_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/6/6f/NH_K.K._Safari_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#26",
     "title": "K.K. Folk",
+    "number": 26,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Folk",
-    "image_url": "https://dodo.ac/np/images/thumb/6/6b/K.K._Folk_NH_Texture.png/256px-K.K._Folk_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/8/8c/NH_K.K._Folk_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/9/95/NH_K.K._Folk_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/6b/K.K._Folk_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/e/ee/NH_K.K._Folk_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/8/8c/NH_K.K._Folk_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/1e/NH_K.K._Folk_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c6/NL_K.K._Folk_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/41/NH_K.K._Folk_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/1/1b/HHP_K.K._Folk_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/9/95/NH_K.K._Folk_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#27",
     "title": "K.K. Rock",
+    "number": 27,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Rock",
-    "image_url": "https://dodo.ac/np/images/thumb/0/0e/K.K._Rock_NH_Texture.png/256px-K.K._Rock_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/3/38/NH_K.K._Rock_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/09/NH_K.K._Rock_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/0/0e/K.K._Rock_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/0/09/NH_K.K._Rock_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/be/NH_K.K._Rock_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/f/fd/NH_K.K._Rock_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/ec/NH_K.K._Rock_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/7/7e/HHP_K.K._Rock_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/7/74/NL_K.K._Rock_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/3/38/NH_K.K._Rock_%28Live%29.flac"
+    }
   },
   {
-    "number": "#28",
     "title": "Rockin' K.K.",
+    "number": 28,
     "wiki_url": "https://nookipedia.com/wiki/Rockin%27_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/f/f8/Rockin%27_K.K._NH_Texture.png/256px-Rockin%27_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/50/NH_Rockin%27_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/b4/NH_Rockin%27_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/f8/Rockin%27_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/5/52/NH_Rockin%27_K.K._%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/f/f0/NL_Rockin%27_K.K._%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/cb/HHP_Rockin%27_K.K._%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/b4/NH_Rockin%27_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/5/50/NH_Rockin%27_K.K._%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/13/NH_Rockin%27_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/c/cf/NH_Rockin%27_K.K._%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#29",
     "title": "K.K. Ragtime",
+    "number": 29,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Ragtime",
-    "image_url": "https://dodo.ac/np/images/thumb/8/88/K.K._Ragtime_NH_Texture.png/256px-K.K._Ragtime_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/04/NH_K.K._Ragtime_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/dc/NH_K.K._Ragtime_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/88/K.K._Ragtime_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/d/dc/NH_K.K._Ragtime_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/0/04/NH_K.K._Ragtime_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/7/78/NH_K.K._Ragtime_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/3/3a/HHP_K.K._Ragtime_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/b/b1/NL_K.K._Ragtime_%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/2/2d/NH_K.K._Ragtime_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/8/8e/NH_K.K._Ragtime_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#30",
     "title": "K.K. Gumbo",
+    "number": 30,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Gumbo",
-    "image_url": "https://dodo.ac/np/images/thumb/9/9c/K.K._Gumbo_NH_Texture.png/256px-K.K._Gumbo_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/b/b1/NH_K.K._Gumbo_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/8a/NH_K.K._Gumbo_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/9c/K.K._Gumbo_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/8/8a/NH_K.K._Gumbo_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c5/NL_K.K._Gumbo_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/00/NH_K.K._Gumbo_%28Aircheck%2C_Phono%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/2a/NH_K.K._Gumbo_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/b/b1/NH_K.K._Gumbo_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/7/76/HHP_K.K._Gumbo_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/6/65/NH_K.K._Gumbo_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#31",
     "title": "The K. Funk",
+    "number": 31,
     "wiki_url": "https://nookipedia.com/wiki/The_K._Funk",
-    "image_url": "https://dodo.ac/np/images/thumb/4/4a/The_K._Funk_NH_Texture.png/256px-The_K._Funk_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/6e/NH_The_K._Funk_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/fa/NH_The_K._Funk_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/4/4a/The_K._Funk_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/f/f5/NH_The_K._Funk_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/6/61/NL_The_K._Funk_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/dc/HHP_The_K._Funk_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/3e/NH_The_K._Funk_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/6/6e/NH_The_K._Funk_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/7/76/NH_The_K._Funk_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/fa/NH_The_K._Funk_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#32",
     "title": "K.K. Blues",
+    "number": 32,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Blues",
-    "image_url": "https://dodo.ac/np/images/thumb/f/fa/K.K._Blues_NH_Texture.png/256px-K.K._Blues_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/e/ed/NH_K.K._Blues_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/de/NH_K.K._Blues_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/fa/K.K._Blues_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/e/ed/NH_K.K._Blues_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/4/4f/NL_K.K._Blues_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/d/de/NH_K.K._Blues_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/b/b9/NH_K.K._Blues_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/8/8a/NH_K.K._Blues_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/8/85/HHP_K.K._Blues_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/09/NH_K.K._Blues_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#33",
     "title": "Soulful K.K.",
+    "number": 33,
     "wiki_url": "https://nookipedia.com/wiki/Soulful_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/6/68/Soulful_K.K._NH_Texture.png/256px-Soulful_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/70/NH_Soulful_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/d9/NH_Soulful_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/68/Soulful_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/2/20/NL_Soulful_K.K._%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/7/70/NH_Soulful_K.K._%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/a/a4/NH_Soulful_K.K._%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/c/c8/NH_Soulful_K.K._%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/1/1d/HHP_Soulful_K.K._%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/d/d9/NH_Soulful_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/9/9e/NH_Soulful_K.K._%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#34",
     "title": "K.K. Soul",
+    "number": 34,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Soul",
-    "image_url": "https://dodo.ac/np/images/thumb/f/f8/K.K._Soul_NH_Texture.png/256px-K.K._Soul_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/de/NH_K.K._Soul_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/59/NH_K.K._Soul_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/f8/K.K._Soul_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/d/de/NH_K.K._Soul_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/59/NH_K.K._Soul_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/c/cb/NH_K.K._Soul_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/9/96/HHP_K.K._Soul_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/c/c4/NH_K.K._Soul_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/0b/NH_K.K._Soul_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/5/54/NL_K.K._Soul_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#35",
     "title": "K.K. Cruisin'",
+    "number": 35,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Cruisin%27",
-    "image_url": "https://dodo.ac/np/images/thumb/f/f4/K.K._Cruisin%27_NH_Texture.png/256px-K.K._Cruisin%27_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/1/15/NH_K.K._Cruisin%27_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c9/NH_K.K._Cruisin%27_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/f4/K.K._Cruisin%27_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/8/87/NH_K.K._Cruisin%27_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/a/a5/NL_K.K._Cruisin%27_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/ac/HHP_K.K._Cruisin%27_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/1/15/NH_K.K._Cruisin%27_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/a/ae/NH_K.K._Cruisin%27_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/44/NH_K.K._Cruisin%27_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c9/NH_K.K._Cruisin%27_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#36",
     "title": "K.K. Love Song",
+    "number": 36,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Love_Song",
-    "image_url": "https://dodo.ac/np/images/thumb/5/5d/K.K._Love_Song_NH_Texture.png/256px-K.K._Love_Song_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/d4/NH_K.K._Love_Song_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/a/a4/NH_K.K._Love_Song_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/5d/K.K._Love_Song_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/a/a5/NL_K.K._Love_Song_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/0e/HHP_K.K._Love_Song_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/a/a4/NH_K.K._Love_Song_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/bd/NH_K.K._Love_Song_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/4f/NH_K.K._Love_Song_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/d/d4/NH_K.K._Love_Song_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/3/35/NH_K.K._Love_Song_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#37",
-    "title": "K.K. D&amp;B",
+    "title": "K.K. D&B",
+    "number": 37,
     "wiki_url": "https://nookipedia.com/wiki/K.K._D%26B",
-    "image_url": "https://dodo.ac/np/images/thumb/2/21/K.K._D%26B_NH_Texture.png/256px-K.K._D%26B_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/aa/NH_K.K._D%26B_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/2/2d/NH_K.K._D%26B_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/2/21/K.K._D%26B_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/2/2d/NH_K.K._D%26B_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/a/aa/NH_K.K._D%26B_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/eb/NH_K.K._D%26B_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/f/f9/NH_K.K._D%26B_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/2a/NH_K.K._D%26B_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/0e/NL_K.K._D%26B_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/ca/HHP_K.K._D%26B_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#38",
     "title": "K.K. Technopop",
+    "number": 38,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Technopop",
-    "image_url": "https://dodo.ac/np/images/thumb/f/f5/K.K._Technopop_NH_Texture.png/256px-K.K._Technopop_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/df/NH_K.K._Technopop_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/1/13/NH_K.K._Technopop_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/f5/K.K._Technopop_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/1/13/NH_K.K._Technopop_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/d/db/NH_K.K._Technopop_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/1/16/NH_K.K._Technopop_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a7/NH_K.K._Technopop_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/d/d5/NL_K.K._Technopop_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/03/HHP_K.K._Technopop_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/d/df/NH_K.K._Technopop_%28Live%29.flac"
+    }
   },
   {
-    "number": "#39",
     "title": "DJ K.K.",
+    "number": 39,
     "wiki_url": "https://nookipedia.com/wiki/DJ_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/5/5e/DJ_K.K._NH_Texture.png/256px-DJ_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/96/NH_DJ_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/4/45/NH_DJ_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/5e/DJ_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/4/45/NH_DJ_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/5/55/NH_DJ_K.K._%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d1/HHP_DJ_K.K._%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/9/96/NH_DJ_K.K._%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/10/NL_DJ_K.K._%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/5/56/NH_DJ_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/7/7b/NH_DJ_K.K._%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#40",
     "title": "Only Me",
+    "number": 40,
     "wiki_url": "https://nookipedia.com/wiki/Only_Me",
-    "image_url": "https://dodo.ac/np/images/thumb/1/10/Only_Me_NH_Texture.png/256px-Only_Me_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/3/33/NH_Only_Me_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/9/97/NH_Only_Me_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/1/10/Only_Me_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/3/33/NH_Only_Me_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/1e/NL_Only_Me_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/5/59/HHP_Only_Me_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/2d/NH_Only_Me_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/ab/NH_Only_Me_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/7/70/NH_Only_Me_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/9/97/NH_Only_Me_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#41",
     "title": "K.K. Country",
+    "number": 41,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Country",
-    "image_url": "https://dodo.ac/np/images/thumb/8/8d/K.K._Country_NH_Texture.png/256px-K.K._Country_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/a7/NH_K.K._Country_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/75/NH_K.K._Country_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/8d/K.K._Country_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/a/a7/NH_K.K._Country_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/9/93/NH_K.K._Country_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/7/70/NL_K.K._Country_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/75/NH_K.K._Country_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/4/4f/HHP_K.K._Country_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/4/4c/NH_K.K._Country_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/0d/NH_K.K._Country_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#42",
     "title": "Surfin' K.K.",
+    "number": 42,
     "wiki_url": "https://nookipedia.com/wiki/Surfin%27_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/b/b8/Surfin%27_K.K._NH_Texture.png/256px-Surfin%27_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/1/11/NH_Surfin%27_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/74/NH_Surfin%27_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/b/b8/Surfin%27_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/d/d1/NH_Surfin%27_K.K._%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/ec/NH_Surfin%27_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/2e/NH_Surfin%27_K.K._%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/f/fd/HHP_Surfin%27_K.K._%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/74/NH_Surfin%27_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/1/11/NH_Surfin%27_K.K._%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/a/a0/NL_Surfin%27_K.K._%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#43",
     "title": "K.K. Ballad",
+    "number": 43,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Ballad",
-    "image_url": "https://dodo.ac/np/images/thumb/d/d2/K.K._Ballad_NH_Texture.png/256px-K.K._Ballad_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/05/NH_K.K._Ballad_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/1/13/NH_K.K._Ballad_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/d/d2/K.K._Ballad_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/d/db/NH_K.K._Ballad_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/f2/NH_K.K._Ballad_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/d/db/NL_K.K._Ballad_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/0/05/NH_K.K._Ballad_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/e/ed/HHP_K.K._Ballad_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/23/NH_K.K._Ballad_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/1/13/NH_K.K._Ballad_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#44",
     "title": "Comrade K.K.",
+    "number": 44,
     "wiki_url": "https://nookipedia.com/wiki/Comrade_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/8/84/Comrade_K.K._NH_Texture.png/256px-Comrade_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/62/NH_Comrade_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/4/4c/NH_Comrade_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/84/Comrade_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/d/d6/NH_Comrade_K.K._%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/92/NL_Comrade_K.K._%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/20/HHP_Comrade_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/4c/NH_Comrade_K.K._%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/6/62/NH_Comrade_K.K._%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/4/4c/NH_Comrade_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/c/cd/NH_Comrade_K.K._%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#45",
     "title": "K.K. Lament",
+    "number": 45,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Lament",
-    "image_url": "https://dodo.ac/np/images/thumb/c/c6/K.K._Lament_NH_Texture.png/256px-K.K._Lament_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/f4/NH_K.K._Lament_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/01/NH_K.K._Lament_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/c6/K.K._Lament_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/0/01/NH_K.K._Lament_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/19/NH_K.K._Lament_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/4/42/HHP_K.K._Lament_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/d/db/NL_K.K._Lament_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/f/f4/NH_K.K._Lament_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/6/60/NH_K.K._Lament_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/9/9e/NH_K.K._Lament_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#46",
     "title": "Go K.K. Rider",
+    "number": 46,
     "wiki_url": "https://nookipedia.com/wiki/Go_K.K._Rider",
-    "image_url": "https://dodo.ac/np/images/thumb/e/e4/Go_K.K._Rider_NH_Texture.png/256px-Go_K.K._Rider_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/21/NH_Go_K.K._Rider_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/dd/NH_Go_K.K._Rider_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/e/e4/Go_K.K._Rider_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/1/1d/NH_Go_K.K._Rider_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/d/dd/NH_Go_K.K._Rider_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d3/HHP_Go_K.K._Rider_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/40/NH_Go_K.K._Rider_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/2/21/NH_Go_K.K._Rider_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/5/53/NH_Go_K.K._Rider_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/07/NL_Go_K.K._Rider_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#47",
     "title": "K.K. Dirge",
+    "number": 47,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Dirge",
-    "image_url": "https://dodo.ac/np/images/thumb/1/1f/K.K._Dirge_NH_Texture.png/256px-K.K._Dirge_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/c/c5/NH_K.K._Dirge_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/4/43/NH_K.K._Dirge_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/1/1f/K.K._Dirge_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/4/43/NH_K.K._Dirge_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/c/c5/NH_K.K._Dirge_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/01/HHP_K.K._Dirge_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b2/NH_K.K._Dirge_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/b/bd/NL_K.K._Dirge_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/2f/NH_K.K._Dirge_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/a/a8/NH_K.K._Dirge_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#48",
     "title": "K.K. Western",
+    "number": 48,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Western",
-    "image_url": "https://dodo.ac/np/images/thumb/a/a7/K.K._Western_NH_Texture.png/256px-K.K._Western_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/ad/NH_K.K._Western_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/5d/NH_K.K._Western_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/a7/K.K._Western_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/e/ea/NL_K.K._Western_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/df/NH_K.K._Western_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/a5/HHP_K.K._Western_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/a/ad/NH_K.K._Western_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/a/a9/NH_K.K._Western_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/5d/NH_K.K._Western_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/0e/NH_K.K._Western_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#49",
     "title": "Mr. K.K.",
+    "number": 49,
     "wiki_url": "https://nookipedia.com/wiki/Mr._K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/6/6a/Mr._K.K._NH_Texture.png/256px-Mr._K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/9e/NH_Mr._K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/75/NH_Mr._K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/6a/Mr._K.K._NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/7/75/NH_Mr._K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/0/04/NH_Mr._K.K._%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/d/d9/NH_Mr._K.K._%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/9/9e/NH_Mr._K.K._%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/7/7d/NH_Mr._K.K._%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c1/NL_Mr._K.K._%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/61/HHP_Mr._K.K._%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#50",
     "title": "Café K.K.",
+    "number": 50,
     "wiki_url": "https://nookipedia.com/wiki/Caf%C3%A9_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/3/31/Caf%C3%A9_K.K._NH_Texture.png/256px-Caf%C3%A9_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/9f/NH_Caf%C3%A9_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/b0/NH_Caf%C3%A9_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/3/31/Caf%C3%A9_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/9/94/NH_Caf%C3%A9_K.K._%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/b0/NH_Caf%C3%A9_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/2/25/NL_Caf%C3%A9_K.K._%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/9/9f/NH_Caf%C3%A9_K.K._%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/3/35/HHP_Caf%C3%A9_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b8/NH_Caf%C3%A9_K.K._%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/e6/NH_Caf%C3%A9_K.K._%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#51",
     "title": "K.K. Parade",
+    "number": 51,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Parade",
-    "image_url": "https://dodo.ac/np/images/thumb/8/85/K.K._Parade_NH_Texture.png/256px-K.K._Parade_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/90/NH_K.K._Parade_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/32/NH_K.K._Parade_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/85/K.K._Parade_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/0/01/NH_K.K._Parade_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/47/NH_K.K._Parade_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/3/32/NH_K.K._Parade_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/05/NL_K.K._Parade_%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/8/8d/NH_K.K._Parade_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/3/3c/HHP_K.K._Parade_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/9/90/NH_K.K._Parade_%28Live%29.flac"
+    }
   },
   {
-    "number": "#52",
     "title": "K.K. Mariachi",
+    "number": 52,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Mariachi",
-    "image_url": "https://dodo.ac/np/images/thumb/c/c1/K.K._Mariachi_NH_Texture.png/256px-K.K._Mariachi_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/3/39/NH_K.K._Mariachi_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/7c/NH_K.K._Mariachi_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/c1/K.K._Mariachi_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/7/7c/NH_K.K._Mariachi_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/3/39/NH_K.K._Mariachi_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/5/58/NH_K.K._Mariachi_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/f/fb/HHP_K.K._Mariachi_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/1b/NL_Se%C3%B1or_K.K._%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#53",
     "title": "K.K. Song",
+    "number": 53,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Song",
-    "image_url": "https://dodo.ac/np/images/thumb/c/cb/K.K._Song_NH_Texture.png/256px-K.K._Song_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/21/NH_K.K._Song_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/6/61/NH_K.K._Song_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/cb/K.K._Song_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/1/13/NH_K.K._Song_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/3/3a/NH_K.K._Song_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/6/61/NH_K.K._Song_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/2/21/NH_K.K._Song_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/f/fe/NH_K.K._Song_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/99/NL_K.K._Song_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/3/3b/HHP_K.K._Song_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#54",
     "title": "I Love You",
+    "number": 54,
     "wiki_url": "https://nookipedia.com/wiki/I_Love_You",
-    "image_url": "https://dodo.ac/np/images/thumb/9/96/I_Love_You_NH_Texture.png/256px-I_Love_You_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/1/15/NH_I_Love_You_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/e/e0/NH_I_Love_You_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/96/I_Love_You_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/7/7e/NH_I_Love_You_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/ce/HHP_I_Love_You_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/e/e0/NH_I_Love_You_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b5/NH_I_Love_You_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/1/15/NH_I_Love_You_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/5/5e/NL_I_Love_You_%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/d/d0/NH_I_Love_You_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#55",
     "title": "Two Days Ago",
+    "number": 55,
     "wiki_url": "https://nookipedia.com/wiki/Two_Days_Ago",
-    "image_url": "https://dodo.ac/np/images/thumb/8/80/Two_Days_Ago_NH_Texture.png/256px-Two_Days_Ago_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/da/NH_Two_Days_Ago_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/4/41/NH_Two_Days_Ago_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/80/Two_Days_Ago_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/b/b8/NH_Two_Days_Ago_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/e/e4/NL_Two_Days_Ago_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/f/f8/NH_Two_Days_Ago_%28Aircheck%2C_Phono%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/5/55/NH_Two_Days_Ago_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/9/9d/HHP_Two_Days_Ago_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/d/da/NH_Two_Days_Ago_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/4/41/NH_Two_Days_Ago_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#56",
     "title": "My Place",
+    "number": 56,
     "wiki_url": "https://nookipedia.com/wiki/My_Place",
-    "image_url": "https://dodo.ac/np/images/thumb/f/fa/My_Place_NH_Texture.png/256px-My_Place_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/96/NH_My_Place_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f5/NH_My_Place_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/fa/My_Place_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/2/2b/NL_My_Place_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/9/96/NH_My_Place_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/1/11/HHP_My_Place_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/d3/NH_My_Place_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/4/40/NH_My_Place_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/f5/NH_My_Place_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/4a/NH_My_Place_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#57",
     "title": "Forest Life",
+    "number": 57,
     "wiki_url": "https://nookipedia.com/wiki/Forest_Life",
-    "image_url": "https://dodo.ac/np/images/thumb/b/b1/Forest_Life_NH_Texture.png/256px-Forest_Life_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/8/83/NH_Forest_Life_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/e/e2/NH_Forest_Life_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/b/b1/Forest_Life_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/8/83/NH_Forest_Life_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/8/8b/NH_Forest_Life_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/e/e2/NH_Forest_Life_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/f/f0/NH_Forest_Life_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/c/c8/NH_Forest_Life_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/1d/NL_Forest_Life_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d9/HHP_Forest_Life_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#58",
     "title": "To the Edge",
+    "number": 58,
     "wiki_url": "https://nookipedia.com/wiki/To_the_Edge",
-    "image_url": "https://dodo.ac/np/images/thumb/f/f7/To_the_Edge_NH_Texture.png/256px-To_the_Edge_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/59/NH_To_the_Edge_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/a/ae/NH_To_the_Edge_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/f7/To_the_Edge_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/5/59/NH_To_the_Edge_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/6/61/NH_To_the_Edge_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/2/21/NH_To_the_Edge_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/5/5f/HHP_To_the_Edge_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/92/NL_To_the_Edge_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/a/ae/NH_To_the_Edge_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/c/c2/NH_To_the_Edge_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#59",
     "title": "Pondering",
+    "number": 59,
     "wiki_url": "https://nookipedia.com/wiki/Pondering",
-    "image_url": "https://dodo.ac/np/images/thumb/0/0f/Pondering_NH_Texture.png/256px-Pondering_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/50/NH_Pondering_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/5b/NH_Pondering_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/0/0f/Pondering_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/2/25/NH_Pondering_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/e/eb/HHP_Pondering_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/5b/NH_Pondering_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/5/50/NH_Pondering_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/07/NL_Pondering_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/d0/NH_Pondering_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/2/24/NH_Pondering_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#60",
     "title": "K.K. Dixie",
+    "number": 60,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Dixie",
-    "image_url": "https://dodo.ac/np/images/thumb/5/50/K.K._Dixie_NH_Texture.png/256px-K.K._Dixie_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/3/31/NH_K.K._Dixie_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c9/NH_K.K._Dixie_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/50/K.K._Dixie_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/9/94/NH_K.K._Dixie_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/d8/NH_K.K._Dixie_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c9/NH_K.K._Dixie_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/3/31/NH_K.K._Dixie_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/9/96/NH_K.K._Dixie_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c4/NL_K.K._Dixie_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/4/4d/HHP_K.K._Dixie_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#61",
     "title": "K.K. Marathon",
+    "number": 61,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Marathon",
-    "image_url": "https://dodo.ac/np/images/thumb/9/9f/K.K._Marathon_NH_Texture.png/256px-K.K._Marathon_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/f2/NH_K.K._Marathon_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/30/NH_K.K._Marathon_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/9f/K.K._Marathon_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/c/cb/NH_K.K._Marathon_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/3/30/NH_K.K._Marathon_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/0a/NL_K.K._Marathon_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/a3/HHP_K.K._Marathon_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/f/f2/NH_K.K._Marathon_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/9/9c/NH_K.K._Marathon_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/4b/NH_K.K._Marathon_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#62",
     "title": "King K.K.",
+    "number": 62,
     "wiki_url": "https://nookipedia.com/wiki/King_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/c/ca/King_K.K._NH_Texture.png/256px-King_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/7d/NH_King_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/8d/NH_King_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/ca/King_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/5/54/NL_King_K.K._%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/8/8d/NH_King_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/0d/NH_King_K.K._%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/9/9e/HHP_King_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/33/NH_King_K.K._%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/7/7d/NH_King_K.K._%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/c/c3/NH_King_K.K._%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#63",
     "title": "Mountain Song",
+    "number": 63,
     "wiki_url": "https://nookipedia.com/wiki/Mountain_Song",
-    "image_url": "https://dodo.ac/np/images/thumb/4/44/Mountain_Song_NH_Texture.png/256px-Mountain_Song_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/28/NH_Mountain_Song_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/5c/NH_Mountain_Song_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/4/44/Mountain_Song_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/2/28/NH_Mountain_Song_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/5c/NH_Mountain_Song_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/4/48/NL_Mountain_Song_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/7/77/HHP_Mountain_Song_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/3d/NH_Mountain_Song_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/d/d4/NH_Mountain_Song_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/3/39/NH_Mountain_Song_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#64",
     "title": "Marine Song 2001",
+    "number": 64,
     "wiki_url": "https://nookipedia.com/wiki/Marine_Song_2001",
-    "image_url": "https://dodo.ac/np/images/thumb/a/af/Marine_Song_2001_NH_Texture.png/256px-Marine_Song_2001_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/a1/NH_Marine_Song_2001_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/be/NH_Marine_Song_2001_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/af/Marine_Song_2001_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/a/a1/NH_Marine_Song_2001_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/8/84/NH_Marine_Song_2001_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/5/50/NH_Marine_Song_2001_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/38/NL_Marine_Song_2001_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/f/fb/HHP_Marine_Song_2001_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/c/c0/NH_Marine_Song_2001_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/be/NH_Marine_Song_2001_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#65",
     "title": "Neapolitan",
+    "number": 65,
     "wiki_url": "https://nookipedia.com/wiki/Neapolitan",
-    "image_url": "https://dodo.ac/np/images/thumb/9/90/Neapolitan_NH_Texture.png/256px-Neapolitan_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/ad/NH_Neapolitan_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/39/NH_Neapolitan_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/90/Neapolitan_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/3/39/NH_Neapolitan_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/a7/HHP_Neapolitan_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/ec/NH_Neapolitan_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/a/a7/NH_Neapolitan_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/a/ad/NH_Neapolitan_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/08/NH_Neapolitan_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/4/43/NL_Neapolitan_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#66",
     "title": "Steep Hill",
+    "number": 66,
     "wiki_url": "https://nookipedia.com/wiki/Steep_Hill",
-    "image_url": "https://dodo.ac/np/images/thumb/6/60/Steep_Hill_NH_Texture.png/256px-Steep_Hill_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/b/bf/NH_Steep_Hill_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/d3/NH_Steep_Hill_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/60/Steep_Hill_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/d/d3/NH_Steep_Hill_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/0c/HHP_Steep_Hill_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a7/NH_Steep_Hill_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/97/NL_Steep_Hill_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/1/1a/NH_Steep_Hill_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/f1/NH_Steep_Hill_%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/b/bf/NH_Steep_Hill_%28Live%29.flac"
+    }
   },
   {
-    "number": "#67",
     "title": "K.K. Rockabilly",
+    "number": 67,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Rockabilly",
-    "image_url": "https://dodo.ac/np/images/thumb/5/59/K.K._Rockabilly_NH_Texture.png/256px-K.K._Rockabilly_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/9/91/NH_K.K._Rockabilly_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f9/NH_K.K._Rockabilly_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/59/K.K._Rockabilly_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/f/fc/NH_K.K._Rockabilly_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/1e/NH_K.K._Rockabilly_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/33/NL_K.K._Rockabilly_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/f9/NH_K.K._Rockabilly_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/4/43/NH_K.K._Rockabilly_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/9/91/NH_K.K._Rockabilly_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/e/e4/HHP_K.K._Rockabilly_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#68",
     "title": "Agent K.K.",
+    "number": 68,
     "wiki_url": "https://nookipedia.com/wiki/Agent_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/8/83/Agent_K.K._NH_Texture.png/256px-Agent_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/f8/NH_Agent_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/04/NH_Agent_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/83/Agent_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/7/75/NL_Agent_K.K._%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/8/8a/NH_Agent_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/f/f8/NH_Agent_K.K._%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/0/04/NH_Agent_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/0/05/NH_Agent_K.K._%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/6a/HHP_Agent_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/6/69/NH_Agent_K.K._%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#69",
     "title": "K.K. Rally",
+    "number": 69,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Rally",
-    "image_url": "https://dodo.ac/np/images/thumb/a/a0/K.K._Rally_NH_Texture.png/256px-K.K._Rally_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/09/NH_K.K._Rally_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/1/12/NH_K.K._Rally_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/a0/K.K._Rally_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/1/1f/NH_K.K._Rally_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/1/12/NH_K.K._Rally_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/f4/NH_K.K._Rally_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/29/HHP_K.K._Rally_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/0/09/NH_K.K._Rally_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/3/3b/NH_K.K._Rally_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/a/ac/NL_K.K._Rally_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#70",
     "title": "K.K. Metal",
+    "number": 70,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Metal",
-    "image_url": "https://dodo.ac/np/images/thumb/2/28/K.K._Metal_NH_Texture.png/256px-K.K._Metal_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/2d/NH_K.K._Metal_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/cb/NH_K.K._Metal_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/2/28/K.K._Metal_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/2/2d/NH_K.K._Metal_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/00/HHP_K.K._Metal_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/1f/NH_K.K._Metal_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/7/73/NH_K.K._Metal_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/cb/NH_K.K._Metal_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/2b/NH_K.K._Metal_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/8/89/NL_K.K._Metal_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#71",
     "title": "Stale Cupcakes",
+    "number": 71,
     "wiki_url": "https://nookipedia.com/wiki/Stale_Cupcakes",
-    "image_url": "https://dodo.ac/np/images/thumb/e/ef/Stale_Cupcakes_NH_Texture.png/256px-Stale_Cupcakes_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/4/49/NH_Stale_Cupcakes_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/89/NH_Stale_Cupcakes_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/e/ef/Stale_Cupcakes_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/0/0a/NH_Stale_Cupcakes_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/8/89/NH_Stale_Cupcakes_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/2/28/NH_Stale_Cupcakes_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/2/2e/NL_Stale_Cupcakes_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/be/HHP_Stale_Cupcakes_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/4/49/NH_Stale_Cupcakes_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/1b/NH_Stale_Cupcakes_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#72",
     "title": "Spring Blossoms",
+    "number": 72,
     "wiki_url": "https://nookipedia.com/wiki/Spring_Blossoms",
-    "image_url": "https://dodo.ac/np/images/thumb/3/32/Spring_Blossoms_NH_Texture.png/256px-Spring_Blossoms_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/4/4b/NH_Spring_Blossoms_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/57/NH_Spring_Blossoms_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/3/32/Spring_Blossoms_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/e/ee/NL_Spring_Blossoms_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/57/NH_Spring_Blossoms_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/e/e7/HHP_Spring_Blossoms_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b0/NH_Spring_Blossoms_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/4/4b/NH_Spring_Blossoms_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/7/71/NH_Spring_Blossoms_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/66/NH_Spring_Blossoms_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#73",
     "title": "Wandering",
+    "number": 73,
     "wiki_url": "https://nookipedia.com/wiki/Wandering",
-    "image_url": "https://dodo.ac/np/images/thumb/5/50/Wandering_NH_Texture.png/256px-Wandering_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/59/NH_Wandering_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/3f/NH_Wandering_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/50/Wandering_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/5/59/NH_Wandering_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/0/0e/NH_Wandering_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a2/NH_Wandering_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/3/3f/NH_Wandering_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/8/86/HHP_Wandering_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/1/1b/NH_Wandering_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/b/b1/NL_Wandering_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#74",
     "title": "K.K. House",
+    "number": 74,
     "wiki_url": "https://nookipedia.com/wiki/K.K._House",
-    "image_url": "https://dodo.ac/np/images/thumb/f/fa/K.K._House_NH_Texture.png/256px-K.K._House_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/1/1a/NH_K.K._House_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/6/66/NH_K.K._House_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/fa/K.K._House_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/6/66/NH_K.K._House_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/1/1a/NH_K.K._House_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/1d/NH_K.K._House_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/9/99/HHP_K.K._House_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/a/a5/NH_K.K._House_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/d/de/NH_K.K._House_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/f/fd/NL_K.K._House_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#75",
     "title": "K.K. Sonata",
+    "number": 75,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Sonata",
-    "image_url": "https://dodo.ac/np/images/thumb/c/c9/K.K._Sonata_NH_Texture.png/256px-K.K._Sonata_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/b/b1/NH_K.K._Sonata_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c2/NH_K.K._Sonata_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/c9/K.K._Sonata_NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/e/e0/HHP_K.K._Sonata_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/b/b1/NH_K.K._Sonata_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c2/NH_K.K._Sonata_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/0/0b/NH_K.K._Sonata_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/a/a0/NL_K.K._Sonata_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/bc/NH_K.K._Sonata_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/e/eb/NH_K.K._Sonata_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#76",
     "title": "Hypno K.K.",
+    "number": 76,
     "wiki_url": "https://nookipedia.com/wiki/Hypno_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/d/d1/Hypno_K.K._NH_Texture.png/256px-Hypno_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/1/19/NH_Hypno_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/ff/NH_Hypno_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/d/d1/Hypno_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/f/ff/NH_Hypno_K.K._%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/1/19/NH_Hypno_K.K._%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/2e/HHP_Hypno_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/4/4b/NH_Hypno_K.K._%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/ee/NH_Hypno_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/4/4c/NH_Hypno_K.K._%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/3f/NL_Hypno_K.K._%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#77",
     "title": "K.K. Stroll",
+    "number": 77,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Stroll",
-    "image_url": "https://dodo.ac/np/images/thumb/a/ad/K.K._Stroll_NH_Texture.png/256px-K.K._Stroll_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/fb/NH_K.K._Stroll_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/fe/NH_K.K._Stroll_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/ad/K.K._Stroll_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/6/62/NH_K.K._Stroll_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/fe/NH_K.K._Stroll_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/b/b7/NH_K.K._Stroll_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/b/bf/NL_K.K._Stroll_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/29/NH_K.K._Stroll_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/cf/HHP_K.K._Stroll_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/f/fb/NH_K.K._Stroll_%28Live%29.flac"
+    }
   },
   {
-    "number": "#78",
     "title": "K.K. Island",
+    "number": 78,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Island",
-    "image_url": "https://dodo.ac/np/images/thumb/6/64/K.K._Island_NH_Texture.png/256px-K.K._Island_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/db/NH_K.K._Island_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/89/NH_K.K._Island_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/64/K.K._Island_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/8/89/NH_K.K._Island_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/d/db/NH_K.K._Island_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/3/3f/NH_K.K._Island_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b9/NH_K.K._Island_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/c/c1/NL_K.K._Island_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/b4/HHP_K.K._Island_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/1/17/NH_K.K._Island_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#79",
     "title": "Space K.K.",
+    "number": 79,
     "wiki_url": "https://nookipedia.com/wiki/Space_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/c/c6/Space_K.K._NH_Texture.png/256px-Space_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/61/NH_Space_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/d4/NH_Space_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/c6/Space_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/6/61/NH_Space_K.K._%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/7/79/NH_Space_K.K._%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/1/1b/HHP_Space_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/d/d7/NH_Space_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/25/NH_Space_K.K._%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/97/NL_Space_K.K._%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/d/d4/NH_Space_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#80",
     "title": "K.K. Adventure",
+    "number": 80,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Adventure",
-    "image_url": "https://dodo.ac/np/images/thumb/e/eb/K.K._Adventure_NH_Texture.png/256px-K.K._Adventure_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/4/42/NH_K.K._Adventure_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/73/NH_K.K._Adventure_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/e/eb/K.K._Adventure_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/7/73/NH_K.K._Adventure_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/f/f6/HHP_K.K._Adventure_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/33/NH_K.K._Adventure_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/4/42/NH_K.K._Adventure_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/e/e4/NH_K.K._Adventure_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/7/74/NL_K.K._Adventure_%28Music_Box%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/b/bd/NH_K.K._Adventure_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#81",
     "title": "K.K. Oasis",
+    "number": 81,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Oasis",
-    "image_url": "https://dodo.ac/np/images/thumb/8/86/K.K._Oasis_NH_Texture.png/256px-K.K._Oasis_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/0/0b/NH_K.K._Oasis_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/58/NH_K.K._Oasis_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/86/K.K._Oasis_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/a/a1/NL_K.K._Oasis_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/e/e2/NH_K.K._Oasis_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/20/HHP_K.K._Oasis_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/58/NH_K.K._Oasis_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/0/0b/NH_K.K._Oasis_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/5/5c/NH_K.K._Oasis_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/c/c6/NH_K.K._Oasis_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#82",
     "title": "K.K. Bazaar",
+    "number": 82,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Bazaar",
-    "image_url": "https://dodo.ac/np/images/thumb/1/1a/K.K._Bazaar_NH_Texture.png/256px-K.K._Bazaar_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/2d/NH_K.K._Bazaar_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f6/NH_K.K._Bazaar_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/1/1a/K.K._Bazaar_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/1/16/NH_K.K._Bazaar_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/0/03/HHP_K.K._Bazaar_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/7/74/NH_K.K._Bazaar_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/f6/NH_K.K._Bazaar_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/2/2d/NH_K.K._Bazaar_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/9/93/NH_K.K._Bazaar_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/37/NL_K.K._Bazaar_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#83",
     "title": "K.K. Milonga",
+    "number": 83,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Milonga",
-    "image_url": "https://dodo.ac/np/images/thumb/8/88/K.K._Milonga_NH_Texture.png/256px-K.K._Milonga_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/e/ed/NH_K.K._Milonga_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/08/NH_K.K._Milonga_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/88/K.K._Milonga_NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/a/a1/HHP_K.K._Milonga_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/d/d6/NH_K.K._Milonga_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/d/d1/NL_K.K._Milonga_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/0/08/NH_K.K._Milonga_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/3/3e/NH_K.K._Milonga_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/fc/NH_K.K._Milonga_%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/e/ed/NH_K.K._Milonga_%28Live%29.flac"
+    }
   },
   {
-    "number": "#84",
     "title": "K.K. Groove",
+    "number": 84,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Groove",
-    "image_url": "https://dodo.ac/np/images/thumb/7/7f/K.K._Groove_NH_Texture.png/256px-K.K._Groove_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/a5/NH_K.K._Groove_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c3/NH_K.K._Groove_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/7/7f/K.K._Groove_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/6/6e/NH_K.K._Groove_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c3/NH_K.K._Groove_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/a/a5/NH_K.K._Groove_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/f/f7/NH_K.K._Groove_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/6e/HHP_K.K._Groove_%28DJ_KK_Remix%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/3/3f/NH_K.K._Groove_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/7/7b/NL_K.K._Groove_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#85",
     "title": "K.K. Jongara",
+    "number": 85,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Jongara",
-    "image_url": "https://dodo.ac/np/images/thumb/b/b4/K.K._Jongara_NH_Texture.png/256px-K.K._Jongara_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/6b/NH_K.K._Jongara_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/06/NH_K.K._Jongara_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/b/b4/K.K._Jongara_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/1/1c/NH_K.K._Jongara_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/d6/NH_K.K._Jongara_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/0/06/NH_K.K._Jongara_%28Aircheck%2C_Hi-Fi%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/7/7b/NL_K.K._Jongara_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a2/NH_K.K._Jongara_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/9/93/HHP_K.K._Jongara_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/6/6b/NH_K.K._Jongara_%28Live%29.flac"
+    }
   },
   {
-    "number": "#86",
     "title": "K.K. Flamenco",
+    "number": 86,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Flamenco",
-    "image_url": "https://dodo.ac/np/images/thumb/a/a9/K.K._Flamenco_NH_Texture.png/256px-K.K._Flamenco_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/db/NH_K.K._Flamenco_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/5c/NH_K.K._Flamenco_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/a9/K.K._Flamenco_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/e/e7/NH_K.K._Flamenco_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/b/b2/NH_K.K._Flamenco_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/4/41/HHP_K.K._Flamenco_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/9/95/NH_K.K._Flamenco_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/6/60/NL_K.K._Flamenco_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/d/db/NH_K.K._Flamenco_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/5/5c/NH_K.K._Flamenco_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#87",
     "title": "K.K. Moody",
+    "number": 87,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Moody",
-    "image_url": "https://dodo.ac/np/images/thumb/9/9c/K.K._Moody_NH_Texture.png/256px-K.K._Moody_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/20/NH_K.K._Moody_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/cd/NH_K.K._Moody_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/9c/K.K._Moody_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/2/20/NH_K.K._Moody_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/cd/NH_K.K._Moody_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/3/3e/NH_K.K._Moody_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/9f/NL_K.K._Moody_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/5/5b/NH_K.K._Moody_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/a/ad/HHP_K.K._Moody_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/24/NH_K.K._Moody_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#88",
     "title": "Bubblegum K.K.",
+    "number": 88,
     "wiki_url": "https://nookipedia.com/wiki/Bubblegum_K.K.",
-    "image_url": "https://dodo.ac/np/images/thumb/6/69/Bubblegum_K.K._NH_Texture.png/256px-Bubblegum_K.K._NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/6d/NH_Bubblegum_K.K._%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/30/NH_Bubblegum_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/69/Bubblegum_K.K._NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/d/d7/NL_Bubblegum_K.K._%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/c1/HHP_Bubblegum_K.K._%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/1f/NH_Bubblegum_K.K._%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/6/6d/NH_Bubblegum_K.K._%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/a/ab/NH_Bubblegum_K.K._%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/e/e9/NH_Bubblegum_K.K._%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/3/30/NH_Bubblegum_K.K._%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#89",
     "title": "K.K. Synth",
+    "number": 89,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Synth",
-    "image_url": "https://dodo.ac/np/images/thumb/4/46/K.K._Synth_NH_Texture.png/256px-K.K._Synth_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/73/NH_K.K._Synth_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/33/NH_K.K._Synth_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/4/46/K.K._Synth_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/7/73/NH_K.K._Synth_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/f/f7/NL_K.K._Synth_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/66/HHP_K.K._Synth_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/0/04/NH_K.K._Synth_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/3/33/NH_K.K._Synth_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/8/84/NH_K.K._Synth_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/7/74/NH_K.K._Synth_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#90",
     "title": "K.K. Disco",
+    "number": 90,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Disco",
-    "image_url": "https://dodo.ac/np/images/thumb/c/ce/K.K._Disco_NH_Texture.png/256px-K.K._Disco_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/a/a0/NH_K.K._Disco_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/6/60/NH_K.K._Disco_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/ce/K.K._Disco_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/6/60/NH_K.K._Disco_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/a/a0/NH_K.K._Disco_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/64/NH_K.K._Disco_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d3/HHP_K.K._Disco_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/91/NL_K.K._Disco_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/2e/NH_K.K._Disco_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/9/91/NH_K.K._Disco_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#91",
     "title": "K.K. Birthday",
+    "number": 91,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Birthday",
-    "image_url": "https://dodo.ac/np/images/thumb/f/fa/K.K._Birthday_NH_Texture.png/256px-K.K._Birthday_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/76/NH_K.K._Birthday_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c1/NH_K.K._Birthday_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/fa/K.K._Birthday_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/a/a1/NH_K.K._Birthday_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/6/6e/NL_K.K._Birthday_%28Music_Box%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/d/d3/NH_K.K._Birthday_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/fd/NH_K.K._Birthday_%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/7/76/NH_K.K._Birthday_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/c/c1/NH_K.K._Birthday_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#92",
     "title": "Animal City",
+    "number": 92,
     "wiki_url": "https://nookipedia.com/wiki/Animal_City",
-    "image_url": "https://dodo.ac/np/images/thumb/1/1f/Animal_City_NH_Texture.png/256px-Animal_City_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/77/NH_Animal_City_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/0/0d/NH_Animal_City_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/1/1f/Animal_City_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/c/c6/NH_Animal_City_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/b4/HHP_Animal_City_%28DJ_KK_Remix%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/c/c8/NH_Animal_City_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/7/77/NH_Animal_City_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/0/0d/NH_Animal_City_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/d/d6/NH_Animal_City_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/d/d4/NH_Animal_City_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#93",
     "title": "Drivin'",
+    "number": 93,
     "wiki_url": "https://nookipedia.com/wiki/Drivin%27",
-    "image_url": "https://dodo.ac/np/images/thumb/1/1f/Drivin%27_NH_Texture.png/256px-Drivin%27_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/53/NH_Drivin%27_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/1/19/NH_Drivin%27_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/1/1f/Drivin%27_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/1/19/NH_Drivin%27_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a3/NH_Drivin%27_%28Aircheck%2C_Phono%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/1/10/HHP_Drivin%27_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/4/45/NH_Drivin%27_%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/5/53/NH_Drivin%27_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/b/b9/NH_Drivin%27_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/b7/NH_Drivin%27_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#94",
     "title": "Farewell",
+    "number": 94,
     "wiki_url": "https://nookipedia.com/wiki/Farewell",
-    "image_url": "https://dodo.ac/np/images/thumb/c/c3/Farewell_NH_Texture.png/256px-Farewell_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/3/34/NH_Farewell_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/c/c9/NH_Farewell_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/c/c3/Farewell_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/c/c9/NH_Farewell_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/2/27/NH_Farewell_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/5/51/NH_Farewell_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/3/34/NH_Farewell_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/0/01/NH_Farewell_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/91/NH_Farewell_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/7/7d/HHP_Farewell_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#95",
     "title": "Welcome Horizons",
+    "number": 95,
     "wiki_url": "https://nookipedia.com/wiki/Welcome_Horizons",
-    "image_url": "https://dodo.ac/np/images/thumb/f/f4/Welcome_Horizons_NH_Texture.png/256px-Welcome_Horizons_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/de/NH_Welcome_Horizons_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/74/NH_Welcome_Horizons_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/f/f4/Welcome_Horizons_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/d/de/NH_Welcome_Horizons_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/5/59/NH_Welcome_Horizons_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/2/20/NH_Welcome_Horizons_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/b9/HHP_Welcome_Horizons_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/e4/NH_Welcome_Horizons_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/74/NH_Welcome_Horizons_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/1/11/NH_Welcome_Horizons_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#96",
     "title": "K.K. Fugue",
+    "number": 96,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Fugue",
-    "image_url": "https://dodo.ac/np/images/thumb/4/4c/K.K._Fugue_NH_Texture.png/256px-K.K._Fugue_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/d/dc/NH_K.K._Fugue_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/8/85/NH_K.K._Fugue_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/4/4c/K.K._Fugue_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/d/dc/NH_K.K._Fugue_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/8/85/NH_K.K._Fugue_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/b/b0/NH_K.K._Fugue_%28Aircheck%2C_Phono%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/5/5d/NH_K.K._Fugue_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/7/7b/NH_K.K._Fugue_%28Aircheck%2C_Retro%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/3/32/NH_K.K._Fugue_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/9/96/HHP_K.K._Fugue_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#97",
     "title": "K.K. Polka",
+    "number": 97,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Polka",
-    "image_url": "https://dodo.ac/np/images/thumb/a/af/K.K._Polka_NH_Texture.png/256px-K.K._Polka_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/c/c8/NH_K.K._Polka_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/7/72/NH_K.K._Polka_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/af/K.K._Polka_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/4/40/NH_K.K._Polka_%28Aircheck%2C_Cheap%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/7/70/HHP_K.K._Polka_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/c/c8/NH_K.K._Polka_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/b/bf/NH_K.K._Polka_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/29/NH_K.K._Polka_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/a/a8/NH_K.K._Polka_%28Music_Box%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/7/72/NH_K.K._Polka_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#98",
     "title": "K.K. Slack-Key",
+    "number": 98,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Slack-Key",
-    "image_url": "https://dodo.ac/np/images/thumb/5/5a/K.K._Slack-Key_NH_Texture.png/256px-K.K._Slack-Key_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/25/NH_K.K._Slack-Key_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/5/5a/NH_K.K._Slack-Key_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/5/5a/K.K._Slack-Key_NH_Texture.png",
+    "song_file_urls": {
+      "Aircheck": "https://dodo.ac/np/images/5/5a/NH_K.K._Slack-Key_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/9/98/NH_K.K._Slack-Key_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/2/25/NH_K.K._Slack-Key_%28Live%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/0/08/NH_K.K._Slack-Key_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/1/14/NH_K.K._Slack-Key_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/b/b3/HHP_K.K._Slack-Key_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/0/0b/NH_K.K._Slack-Key_%28Aircheck%2C_Cheap%29.flac"
+    }
   },
   {
-    "number": "#99",
     "title": "K.K. Chorinho",
+    "number": 99,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Chorinho",
-    "image_url": "https://dodo.ac/np/images/thumb/2/28/K.K._Chorinho_NH_Texture.png/256px-K.K._Chorinho_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/e/ee/NH_K.K._Chorinho_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/dd/NH_K.K._Chorinho_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/2/28/K.K._Chorinho_NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/1/16/HHP_K.K._Chorinho_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/e/ee/NH_K.K._Chorinho_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/9/99/NH_K.K._Chorinho_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/d/dd/NH_K.K._Chorinho_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/25/NH_K.K._Chorinho_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/6/68/NH_K.K._Chorinho_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/1/18/NH_K.K._Chorinho_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#100",
     "title": "Chillwave",
+    "number": 100,
     "wiki_url": "https://nookipedia.com/wiki/Chillwave",
-    "image_url": "https://dodo.ac/np/images/thumb/a/a2/Chillwave_NH_Texture.png/256px-Chillwave_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/50/NH_Chillwave_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/b9/NH_Chillwave_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/a2/Chillwave_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/4/41/NH_Chillwave_%28Aircheck%2C_Retro%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/b9/NH_Chillwave_%28Aircheck%2C_Hi-Fi%29.flac",
+      "Live": "https://dodo.ac/np/images/5/50/NH_Chillwave_%28Live%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/0/0f/NH_Chillwave_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/2/21/NH_Chillwave_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/8/8d/NH_Chillwave_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/6/6c/HHP_Chillwave_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#101",
     "title": "K.K. Dub",
+    "number": 101,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Dub",
-    "image_url": "https://dodo.ac/np/images/thumb/9/9b/K.K._Dub_NH_Texture.png/256px-K.K._Dub_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/e/e6/NH_K.K._Dub_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/3/35/NH_K.K._Dub_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/9/9b/K.K._Dub_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckPhono": "https://dodo.ac/np/images/1/17/NH_K.K._Dub_%28Aircheck%2C_Phono%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/f/f2/NH_K.K._Dub_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/f/f2/NH_K.K._Dub_%28Aircheck%2C_Cheap%29.flac",
+      "Live": "https://dodo.ac/np/images/e/e6/NH_K.K._Dub_%28Live%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/3/35/NH_K.K._Dub_%28Aircheck%2C_Hi-Fi%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/29/HHP_K.K._Dub_%28DJ_KK_Remix%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/1/19/NH_K.K._Dub_%28Music_Box%29.flac"
+    }
   },
   {
-    "number": "#102",
     "title": "K.K. Lovers",
+    "number": 102,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Lovers",
-    "image_url": "https://dodo.ac/np/images/thumb/6/62/K.K._Lovers_NH_Texture.png/256px-K.K._Lovers_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/f/f5/NH_K.K._Lovers_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/f/f9/NH_K.K._Lovers_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/6/62/K.K._Lovers_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/f/f5/NH_K.K._Lovers_%28Live%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/d9/NH_K.K._Lovers_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/d/d2/NH_K.K._Lovers_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/f/f9/NH_K.K._Lovers_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/65/NH_K.K._Lovers_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/2/20/NH_K.K._Lovers_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/c3/HHP_K.K._Lovers_%28DJ_KK_Remix%29.flac"
+    }
   },
   {
-    "number": "#103",
     "title": "K.K. Bashment",
+    "number": 103,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Bashment",
-    "image_url": "https://dodo.ac/np/images/thumb/b/b9/K.K._Bashment_NH_Texture.png/256px-K.K._Bashment_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/6/66/NH_K.K._Bashment_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/a/a9/NH_K.K._Bashment_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/b/b9/K.K._Bashment_NH_Texture.png",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/6/66/NH_K.K._Bashment_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/f/f9/NH_K.K._Bashment_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/e/e8/NH_K.K._Bashment_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/d/df/NH_K.K._Bashment_%28Aircheck%2C_Retro%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/d/d9/HHP_K.K._Bashment_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/4/42/NH_K.K._Bashment_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/a/a9/NH_K.K._Bashment_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#104",
     "title": "K.K. Hop",
+    "number": 104,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Hop",
-    "image_url": "https://dodo.ac/np/images/thumb/a/a9/K.K._Hop_NH_Texture.png/256px-K.K._Hop_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/2/2a/NH_K.K._Hop_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/9/9d/NH_K.K._Hop_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/a/a9/K.K._Hop_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckCheap": "https://dodo.ac/np/images/0/0b/NH_K.K._Hop_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/f/f3/NH_K.K._Hop_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/c/ce/HHP_K.K._Hop_%28DJ_KK_Remix%29.flac",
+      "Live": "https://dodo.ac/np/images/2/2a/NH_K.K._Hop_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/a/a5/NH_K.K._Hop_%28Aircheck%2C_Phono%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/9/9d/NH_K.K._Hop_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/9/95/NH_K.K._Hop_%28Aircheck%2C_Retro%29.flac"
+    }
   },
   {
-    "number": "#105",
     "title": "K.K. Break",
+    "number": 105,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Break",
-    "image_url": "https://dodo.ac/np/images/thumb/d/db/K.K._Break_NH_Texture.png/256px-K.K._Break_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/71/NH_K.K._Break_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/d/df/NH_K.K._Break_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/d/db/K.K._Break_NH_Texture.png",
+    "song_file_urls": {
+      "DjKkRemix": "https://dodo.ac/np/images/4/47/HHP_K.K._Break_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/d/df/NH_K.K._Break_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/1/17/NH_K.K._Break_%28Aircheck%2C_Cheap%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/5/52/NH_K.K._Break_%28Music_Box%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/2/2d/NH_K.K._Break_%28Aircheck%2C_Retro%29.flac",
+      "Live": "https://dodo.ac/np/images/7/71/NH_K.K._Break_%28Live%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/e/ec/NH_K.K._Break_%28Aircheck%2C_Phono%29.flac"
+    }
   },
   {
-    "number": "#106",
     "title": "K.K. Khoomei",
+    "number": 106,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Khoomei",
-    "image_url": "https://dodo.ac/np/images/thumb/8/8d/K.K._Khoomei_NH_Texture.png/256px-K.K._Khoomei_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/5/56/NH_K.K._Khoomei_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/6/6f/NH_K.K._Khoomei_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/8d/K.K._Khoomei_NH_Texture.png",
+    "song_file_urls": {
+      "MusicBox": "https://dodo.ac/np/images/1/10/NH_K.K._Khoomei_%28Music_Box%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/2/2b/HHP_K.K._Khoomei_%28DJ_KK_Remix%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/6/6f/NH_K.K._Khoomei_%28Aircheck%2C_Hi-Fi%29.flac",
+      "AircheckRetro": "https://dodo.ac/np/images/f/f9/NH_K.K._Khoomei_%28Aircheck%2C_Retro%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/3/3e/NH_K.K._Khoomei_%28Aircheck%2C_Cheap%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/6/6b/NH_K.K._Khoomei_%28Aircheck%2C_Phono%29.flac",
+      "Live": "https://dodo.ac/np/images/5/56/NH_K.K._Khoomei_%28Live%29.flac"
+    }
   },
   {
-    "number": "#107",
     "title": "K.K. Robot Synth",
+    "number": 107,
     "wiki_url": "https://nookipedia.com/wiki/K.K._Robot_Synth",
-    "image_url": "https://dodo.ac/np/images/thumb/8/8e/K.K._Robot_Synth_NH_Texture.png/256px-K.K._Robot_Synth_NH_Texture.png",
-    "live_song_file_url": "https://dodo.ac/np/images/7/76/NH_K.K._Robot_Synth_%28Live%29.flac",
-    "aircheck_song_file_url": "https://dodo.ac/np/images/b/bf/NH_K.K._Robot_Synth_%28Aircheck%2C_Hi-Fi%29.flac"
+    "image_url": "https://dodo.ac/np/images/8/8e/K.K._Robot_Synth_NH_Texture.png",
+    "song_file_urls": {
+      "AircheckRetro": "https://dodo.ac/np/images/d/d7/NH_K.K._Robot_Synth_%28Aircheck%2C_Retro%29.flac",
+      "AircheckPhono": "https://dodo.ac/np/images/e/ec/NH_K.K._Robot_Synth_%28Aircheck%2C_Phono%29.flac",
+      "MusicBox": "https://dodo.ac/np/images/9/95/NH_K.K._Robot_Synth_%28Music_Box%29.flac",
+      "Live": "https://dodo.ac/np/images/7/76/NH_K.K._Robot_Synth_%28Live%29.flac",
+      "DjKkRemix": "https://dodo.ac/np/images/5/52/HHP_K.K._Robot_Synth_%28DJ_KK_Remix%29.flac",
+      "AircheckCheap": "https://dodo.ac/np/images/e/e0/NH_K.K._Robot_Synth_%28Aircheck%2C_Cheap%29.flac",
+      "Aircheck": "https://dodo.ac/np/images/b/bf/NH_K.K._Robot_Synth_%28Aircheck%2C_Hi-Fi%29.flac"
+    }
   },
   {
-    "number": "#901",
     "title": "Hazure01",
+    "number": 901,
     "wiki_url": "https://nookipedia.com/wiki/Hazure01",
-    "image_url": "https://dodo.ac/np/images/thumb/0/0b/NH_K.K._Invalid_Song_Request.jpg/256px-NH_K.K._Invalid_Song_Request.jpg",
-    "live_song_file_url": "https://dodo.ac/np/images/5/51/NH_Invalid_Song_1_%28Live%29.flac",
-    "aircheck_song_file_url": null
+    "image_url": "https://dodo.ac/np/images/thumb/0/0b/NH_K.K._Invalid_Song_Request.jpg/1200px-NH_K.K._Invalid_Song_Request.jpg",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/5/51/NH_Invalid_Song_1_%28Live%29.flac"
+    }
   },
   {
-    "number": "#902",
     "title": "Hazure02",
+    "number": 902,
     "wiki_url": "https://nookipedia.com/wiki/Hazure02",
-    "image_url": "https://dodo.ac/np/images/thumb/0/0b/NH_K.K._Invalid_Song_Request.jpg/256px-NH_K.K._Invalid_Song_Request.jpg",
-    "live_song_file_url": "https://dodo.ac/np/images/b/b4/NH_Invalid_Song_2_%28Live%29.flac",
-    "aircheck_song_file_url": null
+    "image_url": "https://dodo.ac/np/images/thumb/0/0b/NH_K.K._Invalid_Song_Request.jpg/1200px-NH_K.K._Invalid_Song_Request.jpg",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/b/b4/NH_Invalid_Song_2_%28Live%29.flac"
+    }
   },
   {
-    "number": "#903",
     "title": "Hazure03",
+    "number": 903,
     "wiki_url": "https://nookipedia.com/wiki/Hazure03",
-    "image_url": "https://dodo.ac/np/images/thumb/0/0b/NH_K.K._Invalid_Song_Request.jpg/256px-NH_K.K._Invalid_Song_Request.jpg",
-    "live_song_file_url": "https://dodo.ac/np/images/7/7d/NH_Invalid_Song_3_%28Live%29.flac",
-    "aircheck_song_file_url": null
+    "image_url": "https://dodo.ac/np/images/thumb/0/0b/NH_K.K._Invalid_Song_Request.jpg/1200px-NH_K.K._Invalid_Song_Request.jpg",
+    "song_file_urls": {
+      "Live": "https://dodo.ac/np/images/7/7d/NH_Invalid_Song_3_%28Live%29.flac"
+    }
   }
 ]
