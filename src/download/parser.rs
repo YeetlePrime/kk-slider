@@ -1,10 +1,11 @@
 use std::{collections::HashMap, slice::Iter};
 
 use scraper::{Html, Selector};
+use serde::{Deserialize, Serialize};
 
 use crate::errors::ParseError;
 
-#[derive(PartialEq, Eq, Hash, Clone, Copy)]
+#[derive(PartialEq, Eq, Hash, Clone, Copy, Serialize, Deserialize, Debug)]
 pub enum SongType {
     Live,
     Aircheck,
@@ -55,6 +56,7 @@ impl SongType {
     }
 }
 
+#[derive(Serialize, Deserialize, Debug)]
 pub struct SongInfo {
     pub title: String,
     pub number: i32,
