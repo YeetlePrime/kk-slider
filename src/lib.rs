@@ -3,7 +3,7 @@ use std::{
     time::Instant,
 };
 
-use futures::{stream::{self, Chunks}, StreamExt};
+use futures::{stream, StreamExt};
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
 use tokio::{fs::{self, File}, io::AsyncWriteExt};

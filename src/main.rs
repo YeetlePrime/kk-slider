@@ -1,4 +1,4 @@
-use kk_slider::{Downloader, SongInfo};
+use kk_slider::Downloader;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
