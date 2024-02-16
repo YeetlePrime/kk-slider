@@ -36,6 +36,7 @@ impl Default for Downloader {
     }
 }
 
+// ----- PUBLIC METHODS ---------------------------------------------------------------------------------
 impl Downloader {
     pub async fn download(&self, directory: &str) -> Result<(), Error> {
         match fs::create_dir_all(directory).await {
@@ -106,63 +107,85 @@ impl Downloader {
         let directory = format!("{}/{}", directory, song_info.filelized_title());
         fs::create_dir_all(&directory).await?;
 
-        info!("Starting to download live file.");
-        if let Some(live_url) = song_info.song_file_urls.get(&SongType::Live) {
-            let mut file = match File::create(format!("{}/live.flac", directory)).await {
-                Ok(file) => {
-                    debug!("Created file");
-                    file
-                }
+        let mut error_occured = false;
+        for song_type in song_info.song_file_urls.keys() {
+            if self.download_song_of_type(song_info, song_type, &directory).await.is_err() {
+                error_occured = true;
+            }
+        }
+
+        if error_occured {
+            warn!("Could not download all files for \"{}\"", song_info.title);
+            return Err(Error::MissingUrl("Could not download all files".to_string()));
+        }
+
+        Ok(())
+    }
+
+    async fn download_song_of_type(
+        &self,
+        song_info: &SongInfo,
+        song_type: &SongType,
+        directory: &str,
+    ) -> Result<(), Error> {
+        let url = match song_info.song_file_urls.get(song_type) {
+            Some(url) => url,
+            None => {
+                return Err(Error::MissingUrl(format!("{}({:?})", song_info.title, song_type)));},
+        };
+        info!(
+            "Starting to download {}/{}.flac",
+            directory,
+            song_type.file_string()
+        );
+
+        let filename = format!("{}/{}.flac", directory, song_type.file_string());
+
+        let mut file = match File::create(&filename).await {
+            Ok(file) => {
+                debug!("Created file \"{}\"", filename);
+                file
+            }
+            Err(e) => {
+                warn!("Could not create file \"{}\"", filename);
+                return Err(Error::FileError(e));
+            }
+        };
+
+        let mut stream = match self.client.get(url).send().await {
+            Ok(response) => response.bytes_stream(),
+            Err(e) => {
+                warn!("Request failed");
+                return Err(Error::RequestError(e));
+            }
+        };
+
+        while let Some(chunk_result) = stream.next().await {
+            let chunk = match chunk_result {
+                Ok(chunk) => chunk,
                 Err(e) => {
-                    warn!("Could not create file");
-                    return Err(Error::FileError(e));
-                }
-            };
-            let mut stream = match self.client.get(live_url).send().await {
-                Ok(response) => response.bytes_stream(),
-                Err(e) => {
-                    warn!("Request failed");
+                    warn!("Could not read chunk while downloading live file");
                     return Err(Error::RequestError(e));
                 }
             };
-
-            while let Some(chunk_result) = stream.next().await {
-                let chunk = match chunk_result {
-                    Ok(chunk) => chunk,
-                    Err(e) => {
-                        warn!("Could not read chunk while downloading live file");
-                        return Err(Error::RequestError(e));
-                    },
-                };
-                match file.write_all(&chunk).await {
-                    Ok(_) => (),
-                    Err(e) => {
-                        warn!("Could not write chunk to file");
-                        return Err(Error::FileError(e));
-                    }
-                };
-            }
-            match file.flush().await {
-                Ok(_) => {info!("Finished downloading live song.");},
+            match file.write_all(&chunk).await {
+                Ok(_) => (),
                 Err(e) => {
-                    warn!("Could not write the remaining buffer");
+                    warn!("Could not write chunk to file");
                     return Err(Error::FileError(e));
-                },
+                }
             };
         }
 
-        info!("Starting to download aircheck file.");
-        if let Some(aircheck_url) = song_info.song_file_urls.get(&SongType::Aircheck) {
-            let mut file = File::create(format!("{}/aircheck.flac", &directory)).await?;
-            let mut stream = self.client.get(aircheck_url).send().await?.bytes_stream();
-
-            while let Some(chunk_result) = stream.next().await {
-                let chunk = chunk_result?;
-                file.write_all(&chunk).await?;
+        match file.flush().await {
+            Ok(_) => {
+                info!("Finished downloading live song.");
             }
-            file.flush().await?;
-        }
-        info!("Finished downloading aircheck song.");
+            Err(e) => {
+                warn!("Could not write the remaining buffer");
+                return Err(Error::FileError(e));
+            }
+        };
 
         Ok(())
     }

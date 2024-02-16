@@ -17,4 +17,7 @@ pub enum Error {
 
     #[error("Could not parse to json")]
     JsonError(#[from] serde_json::Error),
+
+    #[error("No url for {0} was found")]
+    MissingUrl(String),
 }
