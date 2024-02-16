@@ -3,7 +3,7 @@ use crate::{
     errors::Error,
 };
 use futures::{stream, StreamExt};
-use reqwest::Client;
+use reqwest::{Client, Response};
 use tokio::{
     fs::{self, File},
     io::AsyncWriteExt,
@@ -11,6 +11,7 @@ use tokio::{
 use tracing::{debug, error, info, warn};
 
 const CONCURRENT_DOWNLOADS: usize = 50;
+const MAX_TRIES: usize = 3;
 
 #[derive(Debug)]
 pub struct Downloader {
@@ -109,19 +110,31 @@ impl Downloader {
 
         let mut error_occured = false;
         for song_type in song_info.song_file_urls.keys() {
-            if self.download_song_of_type(song_info, song_type, &directory).await.is_err() {
+            if self
+                .download_song_of_type(song_info, song_type, &directory)
+                .await
+                .is_err()
+            {
                 error_occured = true;
             }
         }
 
         if error_occured {
             warn!("Could not download all files for \"{}\"", song_info.title);
-            return Err(Error::MissingUrl("Could not download all files".to_string()));
+            return Err(Error::MissingUrl(
+                "Could not download all files".to_string(),
+            ));
         }
 
         Ok(())
     }
 
+
+    #[tracing::instrument(
+        name = "Downloader.download_song_of_type",
+        skip(self, song_info, directory),
+        fields(title = song_info.title),
+    )]
     async fn download_song_of_type(
         &self,
         song_info: &SongInfo,
@@ -131,7 +144,11 @@ impl Downloader {
         let url = match song_info.song_file_urls.get(song_type) {
             Some(url) => url,
             None => {
-                return Err(Error::MissingUrl(format!("{}({:?})", song_info.title, song_type)));},
+                return Err(Error::MissingUrl(format!(
+                    "{}({:?})",
+                    song_info.title, song_type
+                )));
+            }
         };
         info!(
             "Starting to download {}/{}.flac",
@@ -152,13 +169,7 @@ impl Downloader {
             }
         };
 
-        let mut stream = match self.client.get(url).send().await {
-            Ok(response) => response.bytes_stream(),
-            Err(e) => {
-                warn!("Request failed");
-                return Err(Error::RequestError(e));
-            }
-        };
+        let mut stream = self.make_request(url).await?.bytes_stream();
 
         while let Some(chunk_result) = stream.next().await {
             let chunk = match chunk_result {
@@ -203,15 +214,23 @@ impl Downloader {
         res.collect::<Vec<Result<SongInfo, Error>>>().await
     }
 
+    #[tracing::instrument(
+        name="Downloader.get_song_wiki_urls",
+        skip(self),
+    )]
     pub async fn get_song_wiki_urls(&self) -> Result<Vec<String>, Error> {
-        let document = self
-            .client
-            .get(format!("{}{}", self.base_url, self.songlist_path))
-            .send()
-            .await?
-            .text()
-            .await?;
+        let url = format!("{}/{}", self.base_url, self.songlist_path);
 
+        let response = self.make_request(&url).await?;
+        let document = match response.text().await {
+            Ok(document) => document,
+            Err(e) => {
+                warn!("Could not get response body.");
+                return Err(Error::RequestError(e));
+            },
+        };
+
+        // TODO: This part may go to the parser module
         let html = scraper::Html::parse_document(&document);
 
         let selector =
@@ -224,15 +243,12 @@ impl Downloader {
             .collect())
     }
 
-    #[tracing::instrument]
+    #[tracing::instrument(
+        name = "Downloader.get_song_info",
+        skip(self),
+    )]
     pub async fn get_song_info(&self, song_wiki_url: &str) -> Result<SongInfo, Error> {
-        let response = match self.client.get(song_wiki_url).send().await {
-            Ok(response) => response,
-            Err(e) => {
-                warn!("Could not send the request.");
-                return Err(Error::RequestError(e));
-            }
-        };
+        let response = self.make_request(song_wiki_url).await?;
 
         let document = match response.text().await {
             Ok(document) => document,
@@ -249,5 +265,45 @@ impl Downloader {
                 return Err(e);
             }
         };
+    }
+}
+
+// ----- PRIVATE HELPERS ---------------------------------------------------------------------------------------------------------
+impl Downloader {
+    async fn make_request(&self, url: &str) -> Result<Response, Error> {
+
+        for try_counter in 1..MAX_TRIES {
+
+            let response = match self.client.get(url).send().await {
+                Ok(response) => response,
+                Err(e) => match try_counter {
+                    MAX_TRIES => {
+                        warn!("Could not resolve request {}!", url);
+                        return Err(Error::RequestError(e));
+                    }
+                    _ => {
+                        warn!("Could not resolve request {}. Trying again.", url);
+                        continue;
+                    }
+                },
+            };
+
+            if !response.status().is_success() {
+                match try_counter {
+                    MAX_TRIES => {
+                        warn!("Could not resolve request {}!", url);
+                        return Err(Error::ResponseStatusError(response.status(), url.to_string()));
+                    }
+                    _ => {
+                        warn!("Could not resolve request {}. Trying again.", url);
+                        continue;
+                    }
+                }
+            }
+
+            return Ok(response);
+        }
+
+        panic!("MAX_TRIES is not allowed to be 0")
     }
 }

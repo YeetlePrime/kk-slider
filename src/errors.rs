@@ -1,3 +1,5 @@
+use reqwest::StatusCode;
+
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
     #[error("Could not locate element \"{0}\"")]
@@ -12,6 +14,9 @@ pub enum Error {
     #[error("Failed to send the request")]
     RequestError(#[from] reqwest::Error),
 
+    #[error("ERROR: {0:?} [{1}]")]
+    ResponseStatusError(StatusCode, String),
+
     #[error("Could not create directory.")]
     FileError(#[from] std::io::Error),
 
@@ -20,4 +25,6 @@ pub enum Error {
 
     #[error("No url for {0} was found")]
     MissingUrl(String),
+
+
 }
