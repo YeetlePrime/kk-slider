@@ -1,3 +1,5 @@
+use std::time::Duration;
+
 use crate::{
     download::parser::{SongInfo, SongType},
     errors::Error,
@@ -10,7 +12,7 @@ use tokio::{
 };
 use tracing::{debug, error, info, warn};
 
-const CONCURRENT_DOWNLOADS: usize = 50;
+const CONCURRENT_DOWNLOADS: usize = 10;
 const MAX_TRIES: usize = 3;
 
 #[derive(Debug)]
@@ -24,7 +26,9 @@ pub struct Downloader {
 impl Downloader {
     pub fn new() -> Downloader {
         Downloader {
-            client: Client::new(),
+            client: Client::builder()
+                .build()
+                .expect("Can build this client"),
             base_url: "https://nookipedia.com".to_string(),
             songlist_path: "/wiki/List_of_K.K._Slider_songs".to_string(),
         }
@@ -283,12 +287,12 @@ impl Downloader {
 // ----- PRIVATE HELPERS ---------------------------------------------------------------------------------------------------------
 impl Downloader {
     async fn make_request(&self, url: &str) -> Result<Response, Error> {
-        for try_counter in 1..MAX_TRIES {
+        for try_counter in 1..=MAX_TRIES {
             let response = match self.client.get(url).send().await {
                 Ok(response) => response,
                 Err(e) => match try_counter {
                     MAX_TRIES => {
-                        warn!("Could not resolve request {}!", url);
+                        error!("Could not resolve request {}!", url);
                         return Err(Error::RequestError(e));
                     }
                     _ => {
@@ -301,7 +305,7 @@ impl Downloader {
             if !response.status().is_success() {
                 match try_counter {
                     MAX_TRIES => {
-                        warn!("Could not resolve request {}!", url);
+                        error!("Could not resolve request {}!", url);
                         return Err(Error::ResponseStatusError(
                             response.status(),
                             url.to_string(),
