@@ -203,7 +203,7 @@ impl Downloader {
 
             match file.flush().await {
                 Ok(_) => {
-                    info!("Finished downloading live song.");
+                    info!("Downloaded successfully");
                 }
                 Err(e) => {
                     if try_counter == MAX_TRIES {
