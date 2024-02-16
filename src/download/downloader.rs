@@ -102,7 +102,9 @@ impl Downloader {
     async fn download_song(&self, song_info: &SongInfo, directory: &str) -> Result<(), Error> {
         if song_info.song_file_urls.is_empty() {
             warn!("Tried to download songs without any song file urls.");
-            return Ok(());
+            return Err(Error::MissingUrl(
+                "Tried downloading songs without any song file urls.".to_string(),
+            ));
         }
 
         let directory = format!("{}/{}", directory, song_info.filelized_title());
@@ -129,7 +131,6 @@ impl Downloader {
         Ok(())
     }
 
-
     #[tracing::instrument(
         name = "Downloader.download_song_of_type",
         skip(self, song_info, directory),
@@ -141,6 +142,10 @@ impl Downloader {
         song_type: &SongType,
         directory: &str,
     ) -> Result<(), Error> {
+        if MAX_TRIES == 0 {
+            panic!("MAX_SIZE is expected to be greater than 0 but was 0.");
+        }
+
         let url = match song_info.song_file_urls.get(song_type) {
             Some(url) => url,
             None => {
@@ -150,53 +155,66 @@ impl Downloader {
                 )));
             }
         };
-        info!(
-            "Starting to download {}/{}.flac",
-            directory,
-            song_type.file_string()
-        );
 
-        let filename = format!("{}/{}.flac", directory, song_type.file_string());
+        for try_counter in 1..MAX_TRIES {
+            let filename = format!("{}/{}.flac", directory, song_type.file_string());
 
-        let mut file = match File::create(&filename).await {
-            Ok(file) => {
-                debug!("Created file \"{}\"", filename);
-                file
-            }
-            Err(e) => {
-                warn!("Could not create file \"{}\"", filename);
-                return Err(Error::FileError(e));
-            }
-        };
-
-        let mut stream = self.make_request(url).await?.bytes_stream();
-
-        while let Some(chunk_result) = stream.next().await {
-            let chunk = match chunk_result {
-                Ok(chunk) => chunk,
+            let mut file = match File::create(&filename).await {
+                Ok(file) => {
+                    debug!("Created file \"{}\"", filename);
+                    file
+                }
                 Err(e) => {
-                    warn!("Could not read chunk while downloading live file");
-                    return Err(Error::RequestError(e));
+                    if try_counter == MAX_TRIES {
+                        error!("Could not create file \"{}\"", filename);
+                        return Err(Error::FileError(e));
+                    }
+                    warn!("Could not create file \"{}\". Trying again.", filename);
+                    continue;
                 }
             };
-            match file.write_all(&chunk).await {
-                Ok(_) => (),
+
+            let mut stream = self.make_request(url).await?.bytes_stream();
+
+            while let Some(chunk_result) = stream.next().await {
+                let chunk = match chunk_result {
+                    Ok(chunk) => chunk,
+                    Err(e) => {
+                        if try_counter == MAX_TRIES {
+                            error!("Could not read chunk while downloading live file");
+                            return Err(Error::RequestError(e));
+                        }
+                        warn!("Could not read chunk while downloading live file. Trying again.");
+                        continue;
+                    }
+                };
+                match file.write_all(&chunk).await {
+                    Ok(_) => (),
+                    Err(e) => {
+                        if try_counter == MAX_TRIES {
+                            error!("Could not write chunk to file");
+                            return Err(Error::FileError(e));
+                        }
+                        warn!("Could not write chunk to file. Trying again.");
+                        continue;
+                    }
+                };
+            }
+
+            match file.flush().await {
+                Ok(_) => {
+                    info!("Finished downloading live song.");
+                }
                 Err(e) => {
-                    warn!("Could not write chunk to file");
-                    return Err(Error::FileError(e));
+                    if try_counter == MAX_TRIES {
+                        error!("Could not write the remaining buffer");
+                        return Err(Error::FileError(e));
+                    }
+                    warn!("Could not write the remaining buffer. Trying again.");
+                    continue;
                 }
             };
         }
-
-        match file.flush().await {
-            Ok(_) => {
-                info!("Finished downloading live song.");
-            }
-            Err(e) => {
-                warn!("Could not write the remaining buffer");
-                return Err(Error::FileError(e));
-            }
-        };
 
         Ok(())
     }
@@ -214,10 +232,7 @@ impl Downloader {
         res.collect::<Vec<Result<SongInfo, Error>>>().await
     }
 
-    #[tracing::instrument(
-        name="Downloader.get_song_wiki_urls",
-        skip(self),
-    )]
+    #[tracing::instrument(name = "Downloader.get_song_wiki_urls", skip(self))]
     pub async fn get_song_wiki_urls(&self) -> Result<Vec<String>, Error> {
         let url = format!("{}/{}", self.base_url, self.songlist_path);
 
@@ -227,7 +242,7 @@ impl Downloader {
             Err(e) => {
                 warn!("Could not get response body.");
                 return Err(Error::RequestError(e));
-            },
+            }
         };
 
         // TODO: This part may go to the parser module
@@ -243,10 +258,7 @@ impl Downloader {
             .collect())
     }
 
-    #[tracing::instrument(
-        name = "Downloader.get_song_info",
-        skip(self),
-    )]
+    #[tracing::instrument(name = "Downloader.get_song_info", skip(self))]
     pub async fn get_song_info(&self, song_wiki_url: &str) -> Result<SongInfo, Error> {
         let response = self.make_request(song_wiki_url).await?;
 
@@ -271,9 +283,7 @@ impl Downloader {
 // ----- PRIVATE HELPERS ---------------------------------------------------------------------------------------------------------
 impl Downloader {
     async fn make_request(&self, url: &str) -> Result<Response, Error> {
-
         for try_counter in 1..MAX_TRIES {
-
             let response = match self.client.get(url).send().await {
                 Ok(response) => response,
                 Err(e) => match try_counter {
@@ -292,7 +302,10 @@ impl Downloader {
                 match try_counter {
                     MAX_TRIES => {
                         warn!("Could not resolve request {}!", url);
-                        return Err(Error::ResponseStatusError(response.status(), url.to_string()));
+                        return Err(Error::ResponseStatusError(
+                            response.status(),
+                            url.to_string(),
+                        ));
                     }
                     _ => {
                         warn!("Could not resolve request {}. Trying again.", url);
