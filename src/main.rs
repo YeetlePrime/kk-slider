@@ -3,7 +3,7 @@ use tracing::Level;
 use tracing_subscriber::FmtSubscriber;
 
 #[tokio::main]
-async fn main() -> Result<(), Error> {
+async fn main() -> Result<(), Vec<Error>> {
     let subscriber = FmtSubscriber::builder().with_max_level(Level::INFO).finish();
     tracing::subscriber::set_global_default(subscriber).expect("setting tracing default failed");
 
@@ -12,10 +12,8 @@ async fn main() -> Result<(), Error> {
     Ok(())
 }
 
-async fn run() -> Result<(), Error> {
+async fn run() -> Result<(), Vec<Error>> {
     let downloader = Downloader::new();
 
-    downloader.download("songs").await?;
-
-    Ok(())
+    downloader.download("songs").await
 }

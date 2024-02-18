@@ -2,6 +2,9 @@ use reqwest::StatusCode;
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
+    #[error("{0}")]
+    Error(String),
+
     #[error("Could not locate element \"{0}\"")]
     MissingElement(String),
 
