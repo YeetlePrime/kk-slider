@@ -6,7 +6,7 @@ use futures::{stream, StreamExt};
 use reqwest::{Client, Response};
 use tokio::{
     fs::{self, File},
-    io::{AsyncSeekExt, AsyncWriteExt},
+    io::AsyncWriteExt,
 };
 use tracing::{debug, error, info, warn};
 
@@ -111,7 +111,7 @@ impl Downloader {
             .map_err(|e| vec![Error::FileError(e)])?;
 
         let mut errors: Vec<Error> = vec![];
-        if let Err(mut e) = self.download_image(&song_info, &directory).await {
+        if let Err(mut e) = self.download_image(song_info, &directory).await {
             errors.append(&mut e);
         }
 
@@ -344,43 +344,5 @@ impl Downloader {
             response.status(),
             url.to_string(),
         ))
-    }
-
-    async fn make_request(&self, url: &str) -> Result<Response, Error> {
-        for try_counter in 1..=MAX_TRIES {
-            let response = match self.client.get(url).send().await {
-                Ok(response) => response,
-                Err(e) => match try_counter {
-                    MAX_TRIES => {
-                        error!("Could not resolve request {}!", url);
-                        return Err(Error::RequestError(e));
-                    }
-                    _ => {
-                        warn!("Could not resolve request {}. Trying again.", url);
-                        continue;
-                    }
-                },
-            };
-
-            if !response.status().is_success() {
-                match try_counter {
-                    MAX_TRIES => {
-                        error!("Could not resolve request {}!", url);
-                        return Err(Error::ResponseStatusError(
-                            response.status(),
-                            url.to_string(),
-                        ));
-                    }
-                    _ => {
-                        warn!("Could not resolve request {}. Trying again.", url);
-                        continue;
-                    }
-                }
-            }
-
-            return Ok(response);
-        }
-
-        panic!("MAX_TRIES is not allowed to be 0")
     }
 }
